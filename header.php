@@ -37,6 +37,7 @@
                 <li><a href="#">Projets</a></li>
                 <li><a href="#">Enteprise</a></li>
                 <li><a href="#">Contact</a></li>
+                <li class="pronote"><a href="#"><b>Pronote</b></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
