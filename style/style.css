@@ -1,0 +1,20 @@
+.navbar-default {
+  font-family: Garamond;
+  background-color: #ffffff;
+  border-radius: 0;
+  height: 100px;
+}
+.navbar-default .navbar-collapse {
+  margin-top: 25px;
+}
+.navbar-default .navbar-collapse .navbar-right {
+  margin-right: 50px;
+}
+.navbar-default .navbar-collapse .navbar-right li {
+  font-size: 1.3em;
+  margin-right: 20px;
+}
+.navbar-default .navbar-collapse .navbar-right a {
+  color: #000;
+  text-transform: uppercase;
+}
