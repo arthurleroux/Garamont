@@ -3,6 +3,7 @@
   background-color: #ffffff;
   border-radius: 0;
   height: 100px;
+  margin-bottom: 0;
 }
 .navbar-default .navbar-header {
   margin-top: 25px;
@@ -45,4 +46,11 @@
 }
 .navbar-default .navbar-collapse .navbar-right a:hover {
   color: #1fa17e;
+}
+#carousel-example-generic .carousel-control {
+  background-image: none;
+}
+#carousel-example-generic img {
+  margin: 0 auto;
+  height: 400px;
 }
