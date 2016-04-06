@@ -85,7 +85,7 @@
 
 <!---------------------Galerie---------------------->
 
-<div class="containe block-galerie">
+<div class="container block-galerie">
     <div class="row">
         <div class="text-center">
             <h1>Galerie</h1>
