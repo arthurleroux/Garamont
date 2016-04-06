@@ -45,12 +45,41 @@
     </div>
 </div>
 
+
 <div class="container">
     <div class="row">
         <div class="text-center">
             <h1>Formations</h1>
         </div>
     </div>
+    <div class="formations text-center">
+        <div class="row">
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+        </div>
+        <div class="row line2">
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="formation">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!--<div class="part">

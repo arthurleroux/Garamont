@@ -43,15 +43,8 @@
 .navbar-default .navbar-collapse .navbar-right a:hover {
   color: #1fa17e;
 }
-.home {
-  margin-top: 100px;
-}
 .home .container-fluid {
   padding: 0;
-}
-.home #carousel-example-generic {
-  height: 80vh;
-  overflow: hidden;
 }
 .home #carousel-example-generic .carousel-control {
   background-image: none;
@@ -126,6 +119,30 @@ footer .footer-right a {
 }
 footer .footer-right a:hover {
   background-color: #00ff8b;
+}
+.formations .formation {
+  margin: 100px 40px;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.formations .formation img {
+  -webkit-transform: rotate(-45deg) translateY(-140px);
+  -moz-transform: rotate(-45deg) translateY(-140px);
+  -ms-transform: rotate(-45deg) translateY(-140px);
+  -o-transform: rotate(-45deg) translateY(-140px);
+  transform: rotate(-45deg) translateY(-140px);
+  width: 400px;
+}
+.formations .line2 {
+  position: relative;
+  bottom: 240px;
 }
 /*.losange, .losange div {
   margin: 0 auto;

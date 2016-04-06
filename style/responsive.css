@@ -13,12 +13,19 @@
 }
 @media (min-width: 768px) {
   .navbar-default {
-    height: 100px;
+    height: 75px;
   }
   .navbar-default .navbar-header {
-    margin-top: 25px;
+    margin-top: calc(12.5px);
   }
   .navbar-default .navbar-collapse {
-    margin-top: 25px;
+    margin-top: calc(12.5px);
+  }
+  .home {
+    margin-top: 75px;
+  }
+  .home #carousel-example-generic {
+    height: 500px;
+    overflow: hidden;
   }
 }
