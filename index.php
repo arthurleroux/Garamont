@@ -46,6 +46,8 @@
 </div>
 
 
+<!---------------------Formation---------------------->
+
 <div class="container">
     <div class="row">
         <div class="text-center">
@@ -81,6 +83,61 @@
     </div>
 
 </div>
+
+
+<!---------------------Galerie---------------------->
+
+<div class="containe block-galerie">
+    <div class="row">
+        <div class="text-center">
+            <h1>Galerie</h1>
+        </div>
+    </div>
+    <div class="galeries text-center">
+        <div class="row">
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+        </div>
+        <div class="row line2">
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+        </div>
+        <div class="row line3">
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+            <div class="galerie">
+                <img src="img/eleves.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
 
 <!--<div class="part">
     <h2>Losange</h2>
