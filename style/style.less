@@ -7,13 +7,8 @@
   font-family: Garamond;
   background-color: #ffffff;
   border-radius: 0;
-  height: 100px;
   margin-bottom: 0;
-  .navbar-header {
-    margin-top: 25px;
-  }
-  .navbar-collapse{
-    margin-top: 25px;
+  .navbar-collapse {
     .navbar-right {
       .pronote {
         -webkit-transition: 0.3s;
@@ -21,6 +16,8 @@
         -ms-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
+        margin-top: 10px;
+        border-radius: 2px;
         &:hover {
           background-color: @vertMenu;
           a {
@@ -29,6 +26,7 @@
         }
         border: 1px solid @vertMenu;
         a {
+          padding: 5px;
           color: @vertMenu;
         }
       }
@@ -43,11 +41,11 @@
         -ms-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
+        color: #000;
+        text-transform: uppercase;
         &:hover {
           color: @vertMenu;
         }
-        color: #000;
-        text-transform: uppercase;
       }
     }
   }
@@ -56,13 +54,35 @@
 
 // Home
 
-#carousel-example-generic {
-  .carousel-control {
-    background-image: none;
+.home {
+  margin-top: 100px;
+  .container-fluid {
+    padding: 0;
   }
-  img {
-    margin: 0 auto;
-    height: 400px;
+  #carousel-example-generic {
+    height: 80vh;
+    overflow: hidden;
+    .carousel-control {
+      background-image: none;
+    }
+    img {
+      width: 100%;
+    }
+    .mask {
+      position: absolute;
+      background: rgba(255,255,255,0.6);
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .carousel-caption {
+      top: 20%;
+    }
+    .carousel-control {
+      z-index: 2;
+    }
   }
 }
 
@@ -126,3 +146,25 @@ footer{
     }
   }
 }
+
+
+
+/*.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.losange {
+  transform: rotate(45deg) translateY(10px);
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+.losange .los1 img {
+  width: 100%;
+  height: auto;
+}*/
