@@ -67,6 +67,11 @@
 .home #carousel-example-generic .carousel-control {
   z-index: 2;
 }
+.home #carousel-example-generic .carousel-control img {
+  position: relative;
+  top: 40%;
+  width: 80px;
+}
 footer {
   background-color: #ded8d8;
   padding: 45px 50px;
@@ -133,6 +138,7 @@ footer .footer-right a:hover {
   transform: rotate(45deg);
 }
 .formations .formation img {
+  z-index: 1;
   -webkit-transform: rotate(-45deg) translateY(-140px);
   -moz-transform: rotate(-45deg) translateY(-140px);
   -ms-transform: rotate(-45deg) translateY(-140px);
