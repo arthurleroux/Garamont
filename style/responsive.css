@@ -21,6 +21,9 @@
   .navbar-default .navbar-collapse {
     margin-top: calc(12.5px);
   }
+  .navbar-default .navbar-collapse .pronote {
+    margin-top: 10px;
+  }
   .home {
     margin-top: 75px;
   }

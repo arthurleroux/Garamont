@@ -13,7 +13,6 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  margin-top: 10px;
   border-radius: 2px;
   border: 1px solid #1fa17e;
 }
@@ -43,8 +42,20 @@
 .navbar-default .navbar-collapse .navbar-right a:hover {
   color: #1fa17e;
 }
+.navbar-default .navbar-brand img {
+  width: 200px;
+  position: absolute;
+  top: 3px;
+  left: 25px;
+}
 .home .container-fluid {
   padding: 0;
+}
+.home #carousel-example-generic .carousel-indicators .active {
+  background-color: #00ff8b;
+}
+.home #carousel-example-generic .carousel-indicators li {
+  border-color: #00ff8b;
 }
 .home #carousel-example-generic .carousel-control {
   background-image: none;
@@ -125,7 +136,13 @@ footer .footer-right a {
 footer .footer-right a:hover {
   background-color: #00ff8b;
 }
-.formations .formation {
+.block-formations {
+  padding-top: 50px;
+}
+.block-formations .formations {
+  height: 500px;
+}
+.block-formations .formations .formation {
   margin: 100px 40px;
   height: 150px;
   width: 150px;
@@ -137,18 +154,21 @@ footer .footer-right a:hover {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.formations .formation img {
+.block-formations .formations .formation img {
   z-index: 1;
-  -webkit-transform: rotate(-45deg) translateY(-140px);
-  -moz-transform: rotate(-45deg) translateY(-140px);
-  -ms-transform: rotate(-45deg) translateY(-140px);
-  -o-transform: rotate(-45deg) translateY(-140px);
-  transform: rotate(-45deg) translateY(-140px);
+  -webkit-transform: rotate(-45deg) translateY(-110px);
+  -moz-transform: rotate(-45deg) translateY(-110px);
+  -ms-transform: rotate(-45deg) translateY(-110px);
+  -o-transform: rotate(-45deg) translateY(-110px);
+  transform: rotate(-45deg) translateY(-110px);
   width: 400px;
 }
-.formations .line2 {
+.block-formations .formations .line2 {
   position: relative;
   bottom: 240px;
+}
+.block-galerie .galeries {
+  height: 600px;
 }
 .block-galerie .galeries .galerie {
   margin: 100px 40px;
@@ -163,11 +183,11 @@ footer .footer-right a:hover {
   transform: rotate(45deg);
 }
 .block-galerie .galeries .galerie img {
-  -webkit-transform: rotate(-45deg) translateY(-140px);
-  -moz-transform: rotate(-45deg) translateY(-140px);
-  -ms-transform: rotate(-45deg) translateY(-140px);
-  -o-transform: rotate(-45deg) translateY(-140px);
-  transform: rotate(-45deg) translateY(-140px);
+  -webkit-transform: rotate(-45deg) translateY(-110px);
+  -moz-transform: rotate(-45deg) translateY(-110px);
+  -ms-transform: rotate(-45deg) translateY(-110px);
+  -o-transform: rotate(-45deg) translateY(-110px);
+  transform: rotate(-45deg) translateY(-110px);
   width: 400px;
 }
 .block-galerie .galeries .line2 {

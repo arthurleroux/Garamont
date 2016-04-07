@@ -4,13 +4,13 @@
     <div class="container-fluid">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
-            <!--
+
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
-            -->
+
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -46,7 +46,7 @@
 
 <!---------------------Formation---------------------->
 
-<div class="container">
+<div class="container block-formations">
     <div class="row">
         <div class="text-center">
             <h1>Formations</h1>
@@ -55,27 +55,27 @@
     <div class="formations text-center">
         <div class="row">
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
         </div>
         <div class="row line2">
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
             <div class="formation">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/formation.jpg" alt="">
             </div>
         </div>
     </div>
@@ -94,41 +94,41 @@
     <div class="galeries text-center">
         <div class="row">
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
         </div>
         <div class="row line2">
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
         </div>
         <div class="row line3">
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
             <div class="galerie">
-                <img src="img/eleves.jpg" alt="">
+                <img src="img/projet.jpg" alt="">
             </div>
         </div>
     </div>

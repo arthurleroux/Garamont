@@ -16,7 +16,6 @@
         -ms-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
-        margin-top: 10px;
         border-radius: 2px;
         &:hover {
           background-color: @vertMenu;
@@ -49,6 +48,14 @@
       }
     }
   }
+  .navbar-brand {
+    img {
+      width: 200px;
+      position: absolute;
+      top: 3px;
+      left: 25px;
+    }
+  }
 }
 
 
@@ -59,6 +66,14 @@
     padding: 0;
   }
   #carousel-example-generic {
+    .carousel-indicators {
+      .active {
+        background-color: #00ff8b;
+      }
+      li {
+        border-color: #00ff8b;
+      }
+    }
     .carousel-control {
       background-image: none;
     }
@@ -149,36 +164,41 @@ footer{
   }
 }
 
-.formations {
-  .formation {
-    margin: 100px 40px;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;
-    display: inline-block;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    img {
-      z-index: 1;
-      -webkit-transform: rotate(-45deg) translateY(-140px);
-      -moz-transform: rotate(-45deg) translateY(-140px);
-      -ms-transform: rotate(-45deg) translateY(-140px);
-      -o-transform: rotate(-45deg) translateY(-140px);
-      transform: rotate(-45deg) translateY(-140px);
-      width: 400px;
+.block-formations {
+  padding-top: 50px;
+  .formations {
+    height: 500px;
+    .formation {
+      margin: 100px 40px;
+      height: 150px;
+      width: 150px;
+      overflow: hidden;
+      display: inline-block;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      img {
+        z-index: 1;
+        -webkit-transform: rotate(-45deg) translateY(-110px);
+        -moz-transform: rotate(-45deg) translateY(-110px);
+        -ms-transform: rotate(-45deg) translateY(-110px);
+        -o-transform: rotate(-45deg) translateY(-110px);
+        transform: rotate(-45deg) translateY(-110px);
+        width: 400px;
+      }
     }
-  }
-  .line2 {
-    position: relative;
-    bottom: 240px;
+    .line2 {
+      position: relative;
+      bottom: 240px;
+    }
   }
 }
 
 .block-galerie{
   .galeries {
+    height: 600px;
     .galerie {
       margin: 100px 40px;
       height: 150px;
@@ -191,11 +211,11 @@ footer{
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
       img {
-        -webkit-transform: rotate(-45deg) translateY(-140px);
-        -moz-transform: rotate(-45deg) translateY(-140px);
-        -ms-transform: rotate(-45deg) translateY(-140px);
-        -o-transform: rotate(-45deg) translateY(-140px);
-        transform: rotate(-45deg) translateY(-140px);
+        -webkit-transform: rotate(-45deg) translateY(-110px);
+        -moz-transform: rotate(-45deg) translateY(-110px);
+        -ms-transform: rotate(-45deg) translateY(-110px);
+        -o-transform: rotate(-45deg) translateY(-110px);
+        transform: rotate(-45deg) translateY(-110px);
         width: 400px;
       }
     }
