@@ -19,7 +19,7 @@
                     <div class="mask">
                     </div>
                     <div class="carousel-caption">
-                        JHVLY
+                        <img src="img/logo_garamont.png" alt="">
                     </div>
                 </div>
                 <div class="item">
@@ -27,7 +27,7 @@
                     <div class="mask">
                     </div>
                     <div class="carousel-caption">
-                        JHVLY
+                        <img src="img/logo_garamont.png" alt="">
                     </div>
                 </div>
             </div>
@@ -46,93 +46,96 @@
 
 <!---------------------Formation---------------------->
 
-<div class="container block-formations">
-    <div class="row">
-        <div class="text-center">
-            <h1>Formations</h1>
-        </div>
-    </div>
-    <div class="formations text-center">
+
+
+<div class="zga parallax-window" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
+    <div class="container-fluid block-formations">
         <div class="row">
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
-            </div>
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
-            </div>
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
-            </div>
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
+            <div class="text-center">
+                <h1>Formations</h1>
             </div>
         </div>
-        <div class="row line2">
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
+        <div class="formations text-center">
+            <div class="row">
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
             </div>
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
+            <div class="row line2">
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
+                <div class="formation">
+                    <img src="img/formation.jpg" alt="">
+                </div>
             </div>
-            <div class="formation">
-                <img src="img/formation.jpg" alt="">
-            </div>
-        </div>
-    </div>
-
-</div>
-
-
-<!---------------------Galerie---------------------->
-
-<div class="container block-galerie">
-    <div class="row">
-        <div class="text-center">
-            <h1>Galerie</h1>
         </div>
     </div>
-    <div class="galeries text-center">
+
+
+    <!---------------------Galerie---------------------->
+
+    <div class="container-fluid block-galerie">
         <div class="row">
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
+            <div class="text-center">
+                <h1>Galerie</h1>
             </div>
         </div>
-        <div class="row line2">
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
+        <div class="galeries text-center">
+            <div class="row">
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
             </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
+            <div class="row line2">
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
             </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
+            <div class="row line3">
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
+                <div class="galerie">
+                    <img src="img/projet.jpg" alt="">
+                </div>
             </div>
         </div>
-        <div class="row line3">
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-            <div class="galerie">
-                <img src="img/projet.jpg" alt="">
-            </div>
-        </div>
-    </div>
 
+    </div>
 </div>
 
 

@@ -73,7 +73,7 @@
   z-index: 1;
 }
 .home #carousel-example-generic .carousel-caption {
-  top: 20%;
+  top: 10%;
 }
 .home #carousel-example-generic .carousel-control {
   z-index: 2;
@@ -166,9 +166,6 @@ footer .footer-right a:hover {
 .block-formations .formations .line2 {
   position: relative;
   bottom: 240px;
-}
-.block-galerie .galeries {
-  height: 600px;
 }
 .block-galerie .galeries .galerie {
   margin: 100px 40px;
