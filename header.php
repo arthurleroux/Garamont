@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="img/logo_garamont.png" alt="">
             </a>
         </div>
@@ -32,10 +32,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Lyceé</a></li>
+                <li><a href="lycee.php">Lyceé</a></li>
                 <li><a href="#">Formations</a></li>
                 <li><a href="#">Projets</a></li>
-                <li><a href="#">Enteprise</a></li>
+                <li><a href="entreprise.php">Enteprise</a></li>
                 <li><a href="#">Contact</a></li>
                 <li class="pronote"><a href="#"><b>Pronote</b></a></li>
             </ul>
