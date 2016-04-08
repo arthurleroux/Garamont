@@ -207,6 +207,8 @@ footer .footer-right a:hover {
   overflow: hidden;
 }
 .block-galerie .galeries .galerie {
+  position: relative;
+  z-index: 2;
   margin: 100px 40px;
   height: 150px;
   width: 150px;
@@ -217,6 +219,22 @@ footer .footer-right a:hover {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+.block-galerie .galeries .galerie .mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.block-galerie .galeries .galerie .mask:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 .block-galerie .galeries .galerie img {
   -webkit-transform: rotate(-45deg) translateY(-110px);

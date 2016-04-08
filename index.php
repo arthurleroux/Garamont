@@ -152,12 +152,15 @@
         <div class="galeries text-center">
             <div class="row">
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
@@ -166,26 +169,33 @@
             </div>
             <div class="row line2">
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
             </div>
             <div class="row line3">
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
                 <div class="galerie">
+                    <div class="mask"></div>
                     <img src="img/projet.jpg" alt="">
                 </div>
             </div>
