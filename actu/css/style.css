@@ -1,0 +1,120 @@
+/* Votre code générique (couleurs, polices, survol...) et la mise en page pour ordinateur */
+
+
+/* Mise en page pour mobile */
+@media (max-width: 480px) {  }
+
+/* Mise en page pour tablettes */
+@media (max-width: 767px) { }
+
+/* Mise en page pour les grands écrans */
+@media (min-width: 1200px) { }
+
+body {
+    min-width: 320px;
+
+  text-align: center;
+background:url(../images/actualites.png) no-repeat;
+background-size:cover;
+text-align: center;
+ }
+li{
+  padding: 20px;
+}
+#test{
+    margin-top: -49px;
+  background-color: white;
+    height: 400px;
+}
+#carousel {
+  min-width: 320px;
+  width: 80%;
+  margin: 0 auto;
+  }
+#carousel .carousel-control {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+#carousel .carousel-control li {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  cursor: pointer;
+}
+#carousel .carousel-control li:first-child {
+  padding: 20px;
+  left: auto;
+  right: 100%;
+}
+#carousel .carousel-slides {
+  position: relative;
+  height: 395px;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+#carousel .carousel-slides li {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: left 500ms ease-in-out;
+  -moz-transition: left 500ms ease-in-out;
+  -ms-transition: left 500ms ease-in-out;
+  -o-transition: left 500ms ease-in-out;
+  transition: left 500ms ease-in-out;
+}
+
+/*
+  Not needed for this to work,
+  Just some styling.
+*/
+
+#carousel .carousel-slides {  border-radius: 10px;     margin-left: -1%;
+}
+#carousel .carousel-control li { font-size: 2em; color: #666; margin-top: 5%; padding: 20px; }
+html, body {
+  margin :0;
+  padding: 0 0 10px;
+  text-align: center;
+}
+
+
+h2{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+    margin-top: 70%;
+    margin-left: 29%;
+    
+}
+p{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 0;
+    font-size: 21px;
+    margin-top: 80%;
+    margin-left: 20%;
+    
+    
+}
+h1 {
+  font-family: 'Adobe Garamond Pro ...';
+  font-weight: 100;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+}
+hr {
+  margin: 0 auto 50px;
+  width: 40px;
+  border: 0;
+  border-bottom: 1px solid #666;
+}
