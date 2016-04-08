@@ -37,7 +37,7 @@
                 <li><a href="projets.php">Projets</a></li>
                 <li><a href="entreprise.php">Enteprise</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li class="pronote"><a href="https://0922427n.index-education.net/pronote/"><b>Pronote</b></a></li>
+                <li class="pronote"><a href="https://0922427n.index-education.net/pronote/" target="_blank"><b>Pronote</b></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
