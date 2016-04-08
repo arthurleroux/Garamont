@@ -58,26 +58,33 @@
         <div class="formations text-center">
             <div class="row">
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
             </div>
             <div class="row line2">
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
                 <div class="formation">
+                    <div class="mask"></div>
                     <img src="img/formation.jpg" alt="">
                 </div>
             </div>

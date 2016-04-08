@@ -169,6 +169,7 @@ footer{
   .formations {
     height: 500px;
     .formation {
+      z-index: 2;
       margin: 100px 40px;
       height: 150px;
       width: 150px;
@@ -179,8 +180,23 @@ footer{
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
-      img {
+      .mask {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
         z-index: 1;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        &:hover {
+          background: rgba(0,0,0,0.6);
+        }
+      }
+      img {
         -webkit-transform: rotate(-45deg) translateY(-110px);
         -moz-transform: rotate(-45deg) translateY(-110px);
         -ms-transform: rotate(-45deg) translateY(-110px);
