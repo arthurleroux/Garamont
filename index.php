@@ -57,36 +57,78 @@
         </div>
         <div class="formations text-center">
             <div class="row">
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
             </div>
             <div class="row line2">
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
-                <div class="formation">
-                    <div class="mask"></div>
-                    <img src="img/formation.jpg" alt="">
-                </div>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="formation">
+                        <div class="mask">
+                            <div class="title_formation">
+                                <h3>Formation</h3>
+                            </div>
+                        </div>
+                        <img src="img/formation.jpg" alt="">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
