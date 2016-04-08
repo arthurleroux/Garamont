@@ -58,6 +58,7 @@
   }
 }
 
+@vert: #00ff8b;
 
 // Home
 
@@ -68,10 +69,10 @@
   #carousel-example-generic {
     .carousel-indicators {
       .active {
-        background-color: #00ff8b;
+        background-color: @vert;
       }
       li {
-        border-color: #00ff8b;
+        border-color: @vert;
       }
     }
     .carousel-control {
@@ -136,7 +137,7 @@ footer{
       transition: all .3s;
     }
     a:hover{
-      color: #00ff8b;
+      color: @vert;
     }
   }
   .footer-right {
@@ -159,7 +160,7 @@ footer{
       transition: all .3s;
     }
     a:hover{
-      background-color: #00ff8b;
+      background-color: @vert;
     }
   }
 }
@@ -169,6 +170,7 @@ footer{
   .formations {
     height: 500px;
     .formation {
+      border: 3px solid @vert;
       position: relative;
       z-index: 2;
       margin: 100px 40px;
@@ -237,6 +239,7 @@ footer{
     height: 600px;
     overflow: hidden;
     .galerie {
+      border: 3px solid @vert;
       position: relative;
       z-index: 2;
       margin: 100px 40px;
