@@ -205,23 +205,4 @@
 </div>
 
 
-
-
-<!--<div class="part">
-    <h2>Losange</h2>
-    <div class="losange">
-        <div class="los1">
-            <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" width="255" height="320" />
-        </div>
-    </div>
-</div>
-<div class="part">
-    <h2>Losange</h2>
-    <div class="losange">
-        <div class="los1">
-            <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" width="255" height="320" />
-        </div>
-    </div>
-</div>-->
-
 <?php require("footer.php"); ?>

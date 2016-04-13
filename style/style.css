@@ -266,3 +266,20 @@ header {
   font-family: Garamond;
   text-align: center;
 }
+.lycee .img-section {
+  height: 100vh;
+  background: url("../img/eleves.jpg") no-repeat center center / cover;
+}
+.lycee .img-section .mask {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.lycee .temoignage-section {
+  height: 200px;
+  background-color: #343a39;
+}
