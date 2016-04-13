@@ -274,7 +274,7 @@ footer .footer-right a:hover {
 }
 .visuel-entreprise .container-fluid {
   background: url('../img/business.jpg') center center no-repeat scroll;
-  height: auto;
+  height: 70vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -283,7 +283,7 @@ footer .footer-right a:hover {
 .entreprise h1 {
   font-family: Garamond;
   text-align: center;
-  font-size: 10em;
+  font-size: 5em;
 }
 .lycee .img-section {
   height: 100vh;
