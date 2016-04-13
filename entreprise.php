@@ -1,7 +1,8 @@
 <?php  require ('header.php'); ?>
 
-<header></header>
-
+<div class="visuel-entreprise">
+    <div class="container-fluid"></div>
+</div>
 
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
     <div class="container entreprise">

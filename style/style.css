@@ -223,6 +223,7 @@ footer .footer-right a:hover {
   transform: rotate(45deg);
 }
 .block-galerie .galeries .galerie .mask {
+  opacity: 0;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -235,7 +236,24 @@ footer .footer-right a:hover {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.block-galerie .galeries .galerie .mask .title_galerie {
+  margin-top: 60px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.block-galerie .galeries .galerie .mask .title_galerie h3 {
+  line-height: 5px;
+  color: #ffffff;
+}
+.block-galerie .galeries .galerie .mask .title_galerie p {
+  color: #ffffff;
+  font-style: italic;
+}
 .block-galerie .galeries .galerie .mask:hover {
+  opacity: 1;
   background: rgba(0, 0, 0, 0.6);
 }
 .block-galerie .galeries .galerie img {
@@ -254,9 +272,9 @@ footer .footer-right a:hover {
   position: relative;
   bottom: 480px;
 }
-header {
-  height: 50%;
+.visuel-entreprise .container-fluid {
   background: url('../img/business.jpg') center center no-repeat scroll;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -265,6 +283,7 @@ header {
 .entreprise h1 {
   font-family: Garamond;
   text-align: center;
+  font-size: 10em;
 }
 .lycee .img-section {
   height: 100vh;

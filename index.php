@@ -133,6 +133,9 @@
         </div>
     </div>
 
+    <!---------------------Actualités---------------------->
+
+
     <div class="container-fluid actus">
         <div class="row">
             <div class="text-center">
@@ -151,53 +154,131 @@
         </div>
         <div class="galeries text-center">
             <div class="row">
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <img src="img/projet.jpg" alt="">
-                </div>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
             </div>
             <div class="row line2">
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
             </div>
             <div class="row line3">
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
-                <div class="galerie">
-                    <div class="mask"></div>
-                    <img src="img/projet.jpg" alt="">
-                </div>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="galerie">
+                        <div class="mask">
+                            <div class="title_galerie text-center">
+                                <h3>Projet 1</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                        <img src="img/projet.jpg" alt="">
+                    </div>
+                </a>
             </div>
         </div>
 
