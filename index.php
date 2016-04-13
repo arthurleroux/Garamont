@@ -272,7 +272,7 @@
                     <div class="galerie">
                         <div class="mask">
                             <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
+                                <h3>Projet 123</h3>
                                 <p>lorem ipsum</p>
                             </div>
                         </div>
