@@ -1,3 +1,4 @@
+/*********Header*********/
 .navbar-default {
   font-family: Garamond;
   background-color: #ffffff;
@@ -48,6 +49,7 @@
   top: 3px;
   left: 25px;
 }
+/*********Home*********/
 .home .container-fluid {
   padding: 0;
 }
@@ -83,6 +85,7 @@
 .home #carousel-example-generic .carousel-control img {
   width: 80px;
 }
+/*********Footer*********/
 footer {
   background-color: #ded8d8;
   padding: 45px 50px;
@@ -136,6 +139,7 @@ footer .footer-right a {
 footer .footer-right a:hover {
   background-color: #00ff8b;
 }
+/*********Home Formation*********/
 .block-formations {
   padding-top: 50px;
 }
@@ -206,10 +210,12 @@ footer .footer-right a:hover {
   position: relative;
   bottom: 240px;
 }
+/*********Home Actualité*********/
 .actus {
   height: 300px;
   background-color: #ffffff;
 }
+/*********Home Galerie*********/
 .block-galerie .galeries {
   height: 600px;
   overflow: hidden;
@@ -279,6 +285,7 @@ footer .footer-right a:hover {
   position: relative;
   bottom: 480px;
 }
+/*********Entreprise*********/
 .visuel-entreprise .container-fluid {
   background: url('../img/business.jpg') center center no-repeat scroll;
   height: 70vh;
@@ -292,6 +299,7 @@ footer .footer-right a:hover {
   text-align: center;
   font-size: 5em;
 }
+/*********Lycée*********/
 .lycee .img-section {
   height: 100vh;
   background: url("../img/eleves.jpg") no-repeat center center / cover;
@@ -308,4 +316,32 @@ footer .footer-right a:hover {
 .lycee .temoignage-section {
   height: 200px;
   background-color: #343a39;
+}
+/*********Formation*********/
+.visuel-formation .img-section {
+  height: 100vh;
+  background: url("../img/graphiste.jpg") no-repeat center center / cover;
+}
+.visuel-formation .img-section .mask {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+/*********Projets*********/
+.visuel-projets .img-section {
+  height: 100vh;
+  background: url("../img/projets.jpg") no-repeat center center / cover;
+}
+.visuel-projets .img-section .mask {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
