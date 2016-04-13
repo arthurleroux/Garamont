@@ -32,10 +32,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="lycee.php">Lyceé</a></li>
+                <li><a href="lycee.php">Lycée</a></li>
                 <li><a href="formations.php">Formations</a></li>
                 <li><a href="projets.php">Projets</a></li>
-                <li><a href="entreprise.php">Enteprise</a></li>
+                <li><a href="entreprise.php">Entreprise</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li class="pronote"><a href="https://0922427n.index-education.net/pronote/" target="_blank"><b>Pronote</b></a></li>
             </ul>

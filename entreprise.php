@@ -1,5 +1,6 @@
-<?php
+<?php  include ('header.php'); ?>
 
-include ('header.php');
+<header></header>
 
-include ('footer.php');
+
+<?php include ('footer.php'); ?>
