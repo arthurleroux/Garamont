@@ -1,5 +1,5 @@
-<?php
+<?php require("header.php"); ?>
 
-include ('header.php');
 
-include ('footer.php');
+
+<?php require("footer.php"); ?>

@@ -1,7 +1,4 @@
-<?php  include ('header.php'); ?>
-
-<header></header>
-
+<?php  require ('header.php'); ?>
 
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
     <div class="container entreprise">
@@ -9,4 +6,4 @@
     </div>
 </div>
 
-<?php include ('footer.php'); ?>
+<?php require ('footer.php'); ?>
