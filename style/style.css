@@ -254,3 +254,15 @@ footer .footer-right a:hover {
   position: relative;
   bottom: 480px;
 }
+header {
+  height: 50%;
+  background: url('../img/business.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.entreprise h1 {
+  font-family: Garamond;
+  text-align: center;
+}
