@@ -1,6 +1,6 @@
 <?php require("header.php"); ?>
 
-<div class="parallax-window" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/back.jpg" data-speed="0.6">
     <div class="home">
         <div class="container-fluid">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -62,6 +62,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">
@@ -72,6 +74,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">
@@ -82,6 +86,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">
@@ -92,6 +98,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">
@@ -104,6 +112,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">
@@ -114,6 +124,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">
@@ -124,6 +136,8 @@
                         <div class="mask">
                             <div class="title_formation">
                                 <h3>Formation</h3>
+                                <hr>
+                                <p>lorem</p>
                             </div>
                         </div>
                         <img src="img/formation.jpg" alt="">

@@ -157,18 +157,6 @@ footer .footer-right a:hover {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.block-formations .formations .formation .title_formation {
-  margin-top: 60px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-.block-formations .formations .formation .title_formation h3 {
-  line-height: 30px;
-  color: #ffffff;
-}
 .block-formations .formations .formation .mask {
   opacity: 0;
   position: absolute;
@@ -186,6 +174,25 @@ footer .footer-right a:hover {
 .block-formations .formations .formation .mask:hover {
   opacity: 1;
   background: rgba(0, 0, 0, 0.6);
+}
+.block-formations .formations .formation .mask .title_formation {
+  margin-top: 54px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.block-formations .formations .formation .mask .title_formation hr {
+  margin: 0;
+}
+.block-formations .formations .formation .mask .title_formation h3 {
+  line-height: 5px;
+  color: #ffffff;
+}
+.block-formations .formations .formation .mask .title_formation p {
+  color: #ffffff;
+  font-style: italic;
 }
 .block-formations .formations .formation img {
   -webkit-transform: rotate(-45deg) translateY(-110px);
