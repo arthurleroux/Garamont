@@ -63,9 +63,6 @@
       }
     }*/
 }
-.home #carousel-example-generic .carousel-control {
-  background-image: none;
-}
 .home #carousel-example-generic img {
   width: 100%;
 }
@@ -82,6 +79,7 @@
   top: 30%;
 }
 .home #carousel-example-generic .carousel-control {
+  background-image: none;
   z-index: 2;
   position: absolute;
   top: 50%;
