@@ -53,16 +53,20 @@
 .home .container-fluid {
   padding: 0;
 }
-.home #carousel-example-generic .carousel-indicators .active {
-  background-color: #00ff8b;
-}
-.home #carousel-example-generic .carousel-indicators li {
-  border-color: #00ff8b;
+.home #carousel-example-generic {
+  /*.carousel-indicators {
+      .active {
+        background-color: @vert;
+      }
+      li {
+        border-color: @vert;
+      }
+    }*/
 }
 .home #carousel-example-generic .carousel-control {
   background-image: none;
 }
-.home #carousel-example-generic img {
+.home #carousel-example-generic .carousel-caption img {
   width: 100%;
 }
 .home #carousel-example-generic .mask {
@@ -75,15 +79,36 @@
   z-index: 1;
 }
 .home #carousel-example-generic .carousel-caption {
-  top: 10%;
+  top: 30%;
 }
 .home #carousel-example-generic .carousel-control {
   z-index: 2;
   position: absolute;
-  top: 40%;
+  top: 50%;
 }
 .home #carousel-example-generic .carousel-control img {
   width: 80px;
+}
+.home #carousel-example-generic .arrow {
+  margin-top: 50px;
+  font-size: 6em;
+}
+.home #carousel-example-generic .arrow a {
+  color: #00ff8b;
+}
+.home #carousel-example-generic .arrow .fa {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.home #carousel-example-generic .arrow .fa:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 /*********Footer*********/
 footer {
@@ -141,24 +166,29 @@ footer .footer-right a:hover {
 }
 /*********Home Formation*********/
 .cell-view {
+  padding-right: 9px;
   display: table-cell;
   vertical-align: middle;
 }
+.cell-view hr {
+  width: 60px;
+}
 .block-formations {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 .block {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 126px;
 }
 .team {
   margin-top: 50px;
 }
 .tream-entry {
+  border: 3px solid #00ff8b;
   position: relative;
-  width: 130px;
-  height: 130px;
+  width: 141px;
+  height: 141px;
   margin: 0 auto;
   overflow: hidden;
   -webkit-transform: rotate(-45deg);
@@ -171,15 +201,13 @@ footer .footer-right a:hover {
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -moz-box-shadow: 5px 1px 30px 5px rgba(207, 205, 205, 0.75);
-  box-shadow: 5px 1px 30px 5px rgba(207, 205, 205, 0.75);
   cursor: pointer;
 }
 .tream-entry .team-img,
 .tream-entry .table-view {
   display: block;
-  width: 183px;
-  height: 183px;
+  width: 199px;
+  height: 199px;
   -webkit-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -moz-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -ms-transform: translate(-14.5%, -14.5%) rotate(45deg);
@@ -193,7 +221,7 @@ footer .footer-right a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: #164b9b;
+  background: #000000;
   color: #fefeff;
   opacity: 0;
   -webkit-transition: all .3s;
@@ -221,7 +249,7 @@ footer .footer-right a:hover {
 }
 .teamrow {
   position: relative;
-  top: -20px;
+  top: -37px;
 }
 .teamrow:nth-child(1) {
   top: 0px;
@@ -232,6 +260,9 @@ footer .footer-right a:hover {
 /*Desktops (>=1200px)*/
 /*Desktops (>=992px)*/
 @media (max-width: 1199px) {
+  .teamrow {
+    top: -20px;
+  }
   .tream-entry {
     width: 110px;
     height: 110px;

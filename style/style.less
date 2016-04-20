@@ -66,19 +66,21 @@
     padding: 0;
   }
   #carousel-example-generic {
-    .carousel-indicators {
+    /*.carousel-indicators {
       .active {
         background-color: @vert;
       }
       li {
         border-color: @vert;
       }
-    }
+    }*/
     .carousel-control {
       background-image: none;
     }
-    img {
-      width: 100%;
+    .carousel-caption {
+      img {
+        width: 100%;
+      }
     }
     .mask {
       position: absolute;
@@ -90,14 +92,35 @@
       z-index: 1;
     }
     .carousel-caption {
-      top: 10%;
+      top: 30%;
     }
     .carousel-control {
       z-index: 2;
       position: absolute;
-      top: 40%;
+      top: 50%;
       img {
         width: 80px;
+      }
+    }
+    .arrow {
+      margin-top: 50px;
+      font-size: 6em;
+      a {
+        color: @vert;
+      }
+      .fa {
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        &:hover {
+          -webkit-transform: scale(1.2, 1.2);
+          -moz-transform: scale(1.2, 1.2);
+          -ms-transform: scale(1.2, 1.2);
+          -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+        }
       }
     }
   }
@@ -167,24 +190,29 @@ footer{
 /*********Home Formation*********/
 
 .cell-view {
+  padding-right: 9px;
   display: table-cell;
   vertical-align: middle;
+  hr {
+    width: 60px;
+  }
 }
 .block-formations {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 .block {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 126px;
 }
 .team {
   margin-top: 50px;
 }
 .tream-entry {
+  border: 3px solid @vert;
   position: relative;
-  width: 130px;
-  height: 130px;
+  width: 141px;
+  height: 141px;
   margin: 0 auto;
   overflow: hidden;
   -webkit-transform: rotate(-45deg);
@@ -197,14 +225,14 @@ footer{
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -moz-box-shadow: 5px 1px 30px 5px rgba(207, 205, 205, 0.75);
-  box-shadow: 5px 1px 30px 5px rgba(207, 205, 205, 0.75);
+  //-moz-box-shadow: 5px 1px 30px 5px rgba(207, 205, 205, 0.75);
+  //box-shadow: 5px 1px 30px 5px rgba(207, 205, 205, 0.75);
   cursor: pointer;
 }
 .tream-entry .team-img, .tream-entry .table-view {
   display: block;
-  width: 183px;
-  height: 183px;
+  width: 199px;
+  height: 199px;
   -webkit-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -moz-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -ms-transform: translate(-14.5%, -14.5%) rotate(45deg);
@@ -218,13 +246,14 @@ footer{
   position: absolute;
   top: 0;
   left: 0;
-  background: #164b9b;
+  background: #000000;
   color: #fefeff;
   opacity: 0;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
 }
+
 
 .tream-entry:hover .team-hover {
   opacity: 1;
@@ -242,14 +271,19 @@ footer{
   text-align: center;
 }
 .team-social a {
-  margin: 0 10px; color: #c1d8fc;
+  margin: 0 10px;
+  color: #c1d8fc;
 }
+
 .teamrow {
-  position: relative; top: -20px;
+  position: relative;
+  top: -37px;
 }
+
 .teamrow:nth-child(1) {
   top: 0px;
 }
+
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 23 - MEDIA QUERIES */
@@ -257,6 +291,10 @@ footer{
 /*Desktops (>=1200px)*/
 /*Desktops (>=992px)*/
 @media (max-width: 1199px) {
+  .teamrow {
+    top: -20px;
+  }
+
   .tream-entry {
     width: 110px;
     height: 110px;

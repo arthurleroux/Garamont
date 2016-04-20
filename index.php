@@ -6,11 +6,11 @@
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
 
-                <ol class="carousel-indicators">
+                <!--<ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
+                </ol>-->
 
 
                 <!-- Wrapper for slides -->
@@ -20,7 +20,20 @@
                         <div class="mask">
                         </div>
                         <div class="carousel-caption">
-                            <img src="img/logo_garamont.png" alt="">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <img src="img/logo_garamont.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="arrow">
+                                    <div class="text-center">
+                                        <a href="#formations">
+                                            <i class="fa fa-arrow-circle-down"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
@@ -28,10 +41,24 @@
                         <div class="mask">
                         </div>
                         <div class="carousel-caption">
-                            <img src="img/logo_garamont.png" alt="">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <img src="img/logo_garamont.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="arrow">
+                                    <div class="text-center">
+                                        <a href="#formations">
+                                            <i class="fa fa-arrow-circle-down"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
 
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -49,7 +76,8 @@
 
 
 
-    <div class="container-fluid block-formations">
+    <div class="container-fluid block-formations"  id="formations">
+
         <div class="row">
             <div class="text-center">
                 <h1>Formations</h1>
@@ -66,7 +94,15 @@
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
-                                        <div class="team-name">Formatorn</div>
+                                        <div class="team-name">
+                                            <div class="h5">
+                                                Formation
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="team-social">
+                                            lorem
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +114,15 @@
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
-                                        <div class="team-name">Formation</div>
+                                        <div class="team-name">
+                                            <div class="h5">
+                                                Formation
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="team-social">
+                                            lorem
+                                        </div>
                                     </div>
                                 </div>
                             </div>

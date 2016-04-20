@@ -24,11 +24,8 @@
   .navbar-default .navbar-collapse .pronote {
     margin-top: 10px;
   }
-  .home {
-    margin-top: 75px;
-  }
   .home #carousel-example-generic {
-    height: 500px;
+    height: 100vh;
     overflow: hidden;
   }
 }
