@@ -11,11 +11,11 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 contenu-entreprise-1">
                         <div class="taxe">
                             <h2>Taxe d'apprentissage</h2>
                             <h3>Les rendez-vous formation & compétences</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut dignissimos ea libero, magnam nemo placeat repellendus ut voluptatibus. Animi corporis distinctio et ipsum vero. Magnam quae sed sint.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut dignissimos ea libero, magnam nemo placeat repellendus ut voluptatibus. Animi corporis distinctio et ipsum vero. Magnam quae sed sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores earum eius et fugit molestiae, necessitatibus nulla obcaecati officia placeat quae quas quis, sint ut vel velit veniam vero. Debitis.</p>
                             <div class="col-md-offset-2">
                                 <p><strong>Horaire</strong></p>
                                 <p><strong>Lieu</strong></p>
@@ -24,7 +24,7 @@
                             <a href="">Se renseigner et choisir</a>
                         </div>
                         <div class="bourses">
-                            <h2>Taxe d'apprentissage</h2>
+                            <h2>Bourses</h2>
                             <h3>Les rendez-vous formation & compétences</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut dignissimos ea libero, magnam nemo placeat repellendus ut voluptatibus. Animi corporis distinctio et ipsum vero. Magnam quae sed sint.</p>
                             <p><strong>Horaire</strong></p>
@@ -35,12 +35,12 @@
                             </div>
                         </div>
                         <div class="marches">
-                            <h2>Taxe d'apprentissage</h2>
+                            <h2>Marchés publics</h2>
                             <h3>Les rendez-vous formation & compétences</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut dignissimos ea libero, magnam nemo placeat repellendus ut voluptatibus. Animi corporis distinctio et ipsum vero. Magnam quae sed sint.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 contenu-entreprise-2">
                         <div class="offres">
                             <h2>Offres d'emplois</h2>
                             

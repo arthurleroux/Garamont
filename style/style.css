@@ -406,21 +406,41 @@ footer .footer-right a:hover {
   text-align: center;
   font-size: 5em;
 }
-.entreprise .taxe {
-  background-color: #F7F7F7;
-  padding: 35px;
-  margin-top: 50px;
-}
-.entreprise .bourses {
-  background-color: #F7F7F7;
-  padding: 35px;
-  margin-top: 50px;
-}
-.entreprise .marches {
-  background-color: #F7F7F7;
-  padding: 35px;
+.entreprise .contenu-entreprise-1 {
+  border-right: 2px solid;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.entreprise .contenu-entreprise-1 .taxe {
+  background-color: #F7F7F7;
+  padding: 35px;
+}
+.entreprise .contenu-entreprise-1 .taxe h2 {
+  text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-1 .bourses {
+  background-color: #F7F7F7;
+  padding: 35px;
+  margin-top: 50px;
+}
+.entreprise .contenu-entreprise-1 .bourses h2 {
+  text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-1 .marches {
+  background-color: #F7F7F7;
+  padding: 35px;
+  margin-top: 50px;
+}
+.entreprise .contenu-entreprise-1 .marches h2 {
+  text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-2 .offres {
+  background-color: #F7F7F7;
+  padding: 35px;
+  margin-top: 50px;
+}
+.entreprise .contenu-entreprise-2 .offres h2 {
+  text-transform: uppercase;
 }
 /*********Lycée*********/
 .lycee .img-section {
