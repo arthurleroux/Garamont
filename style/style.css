@@ -402,6 +402,22 @@ footer .footer-right a:hover {
   text-align: center;
   font-size: 5em;
 }
+.entreprise .taxe {
+  background-color: #F7F7F7;
+  padding: 35px;
+  margin-top: 50px;
+}
+.entreprise .bourses {
+  background-color: #F7F7F7;
+  padding: 35px;
+  margin-top: 50px;
+}
+.entreprise .marches {
+  background-color: #F7F7F7;
+  padding: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /*********Lycée*********/
 .lycee .img-section {
   height: 100vh;
