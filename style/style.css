@@ -278,6 +278,9 @@ footer .footer-right a:hover {
   .teamrow:nth-child(2) .team-item:last-child {
     margin-bottom: 30px;
   }
+  .hide-line {
+    display: none;
+  }
 }
 /*********Home Actualité*********/
 .actus {
