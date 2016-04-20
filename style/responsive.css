@@ -29,3 +29,8 @@
     overflow: hidden;
   }
 }
+@media (max-width: 767px) {
+  .home #carousel-example-generic .carousel-control img {
+    width: 50px;
+  }
+}
