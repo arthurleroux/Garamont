@@ -55,94 +55,98 @@
                 <h1>Formations</h1>
             </div>
         </div>
-        <div class="formations text-center">
-            <div class="row">
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+        <div id="team" class="block">
+            <div class="container-fluid">
+                <div class="team">
+                    <div class="teamrow row">
+                        <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
                     </div>
-                </a>
-            </div>
-            <div class="row line2">
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+                    <div class="teamrow row">
+                        <div class="team-item col-xs-12  col-sm-offset-3 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="formation">
-                        <div class="mask">
-                            <div class="title_formation">
-                                <h3>Formation</h3>
-                                <hr>
-                                <p>lorem</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Formation</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/formation.jpg" alt="">
                     </div>
-                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -166,133 +170,146 @@
                 <h1>Galerie</h1>
             </div>
         </div>
-        <div class="galeries text-center">
-            <div class="row">
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+        <div id="team" class="block">
+            <div class="container-fluid">
+                <div class="team">
+                    <div class="teamrow row">
+                        <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
                     </div>
-                </a>
-            </div>
-            <div class="row line2">
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                    <div class="teamrow row">
+                        <div class="team-item col-xs-12  col-sm-offset-3 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                        <div class="team-item col-xs-12 col-sm-2">
+                            <div class="tream-entry">
+                                <a href="" class="team-img">
+                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="team-hover table-view">
+                                    <div class="cell-view">
+                                        <div class="team-name">Projet</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
                     </div>
-                </a>
-            </div>
-            <div class="row line3">
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                    <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
+                        <div class="tream-entry">
+                            <a href="" class="team-img">
+                                <img src="img/back.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="team-hover table-view">
+                                <div class="cell-view">
+                                    <div class="team-name">Projet</div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
                     </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                    <div class="team-item col-xs-12 col-sm-2">
+                        <div class="tream-entry">
+                            <a href="" class="team-img">
+                                <img src="img/back.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="team-hover table-view">
+                                <div class="cell-view">
+                                    <div class="team-name">Projet</div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
                     </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 1</h3>
-                                <p>lorem ipsum</p>
+                    <div class="team-item col-xs-12 col-sm-2">
+                        <div class="tream-entry">
+                            <a href="" class="team-img">
+                                <img src="img/back.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="team-hover table-view">
+                                <div class="cell-view">
+                                    <div class="team-name">Projet</div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
                     </div>
-                </a>
-                <a href="">
-                    <div class="galerie">
-                        <div class="mask">
-                            <div class="title_galerie text-center">
-                                <h3>Projet 123</h3>
-                                <p>lorem ipsum</p>
+                    <div class="team-item col-xs-12 col-sm-2">
+                        <div class="tream-entry">
+                            <a href="" class="team-img">
+                                <img src="img/back.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="team-hover table-view">
+                                <div class="cell-view">
+                                    <div class="team-name">Projet</div>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/projet.jpg" alt="">
                     </div>
-                </a>
+                </div>
             </div>
         </div>
 
