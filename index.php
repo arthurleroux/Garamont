@@ -305,7 +305,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hide-line">
+                    <div class="teamrow row hide-line">
                         <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
