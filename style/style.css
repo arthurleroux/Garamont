@@ -401,6 +401,9 @@ footer .footer-right a:hover {
   background-size: cover;
   -o-background-size: cover;
 }
+.entreprise {
+  margin-top: 30px;
+}
 .entreprise h1 {
   font-family: Garamond;
   text-align: center;
@@ -416,7 +419,19 @@ footer .footer-right a:hover {
   padding: 35px;
 }
 .entreprise .contenu-entreprise-1 .taxe h2 {
+  font-family: Garamond;
   text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-1 .taxe h3 {
+  font-family: Garamond;
+  text-transform: uppercase;
+  color: #1fa17e;
+}
+.entreprise .contenu-entreprise-1 .taxe .information-1 a {
+  color: #11a27d;
+}
+.entreprise .contenu-entreprise-1 .taxe a {
+  color: #11a27d;
 }
 .entreprise .contenu-entreprise-1 .bourses {
   background-color: #F7F7F7;
@@ -424,7 +439,29 @@ footer .footer-right a:hover {
   margin-top: 50px;
 }
 .entreprise .contenu-entreprise-1 .bourses h2 {
+  font-family: Garamond;
   text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-1 .bourses h3 {
+  font-family: Garamond;
+  text-transform: uppercase;
+  color: #1fa17e;
+}
+.entreprise .contenu-entreprise-1 .bourses .information-2 a {
+  color: #11a27d;
+}
+.entreprise .contenu-entreprise-1 .bourses .boutton-savoir {
+  text-transform: uppercase;
+  padding: 10px 40px 10px 40px;
+  background-color: #a5f9d3;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.entreprise .contenu-entreprise-1 .bourses .boutton-savoir:hover {
+  background-color: #00ff8b;
 }
 .entreprise .contenu-entreprise-1 .marches {
   background-color: #F7F7F7;
@@ -432,7 +469,39 @@ footer .footer-right a:hover {
   margin-top: 50px;
 }
 .entreprise .contenu-entreprise-1 .marches h2 {
+  font-family: Garamond;
   text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-1 .marches h3 {
+  font-family: Garamond;
+  text-transform: uppercase;
+  color: #1fa17e;
+}
+.entreprise .contenu-entreprise-1 .marches .marches-p2 {
+  font-style: italic;
+}
+.entreprise .contenu-entreprise-1 .marches .marches-p4 {
+  text-transform: uppercase;
+  color: #1fa17e;
+}
+.entreprise .contenu-entreprise-1 .marches .marches-p5 {
+  font-weight: bold;
+}
+.entreprise .contenu-entreprise-1 .marches .marches-p7 {
+  color: #1fa17e;
+}
+.entreprise .contenu-entreprise-1 .marches .boutton-savoir {
+  text-transform: uppercase;
+  padding: 10px 40px 10px 40px;
+  background-color: #a5f9d3;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.entreprise .contenu-entreprise-1 .marches .boutton-savoir:hover {
+  background-color: #00ff8b;
 }
 .entreprise .contenu-entreprise-2 .offres {
   background-color: #F7F7F7;
@@ -440,7 +509,56 @@ footer .footer-right a:hover {
   margin-top: 50px;
 }
 .entreprise .contenu-entreprise-2 .offres h2 {
+  font-family: Garamond;
   text-transform: uppercase;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-arts-graphiques h4 {
+  font-family: Garamond;
+  text-transform: uppercase;
+  color: white;
+  padding: 25px 50px 25px 30px;
+  background-color: black;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-arts-graphiques .contenu-offres-arts {
+  margin-top: 20px;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-arts-graphiques .contenu-offres-arts a {
+  padding: 10px 60px 10px 60px;
+  background-color: #a5f9d3;
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  margin: 10px 0 10px 0;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-arts-graphiques .contenu-offres-arts a:hover {
+  background-color: #00ff8b;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-pif h4 {
+  font-family: Garamond;
+  text-transform: uppercase;
+  color: white;
+  padding: 25px 50px 25px 30px;
+  background-color: black;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-pif .contenu-pif {
+  margin-top: 20px;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-pif .contenu-pif a {
+  padding: 10px 60px 10px 60px;
+  background-color: #a5f9d3;
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  margin: 10px 0 10px 0;
+}
+.entreprise .contenu-entreprise-2 .offres .offres-pif .contenu-pif a:hover {
+  background-color: #00ff8b;
 }
 /*********Lycée*********/
 .lycee .img-section {
