@@ -560,6 +560,11 @@ footer .footer-right a:hover {
 .entreprise .contenu-entreprise-2 .offres .offres-pif .contenu-pif a:hover {
   background-color: #00ff8b;
 }
+@media (max-width: 991px) {
+  .entreprise .contenu-entreprise-1 {
+    border-right: none;
+  }
+}
 /*********Lycée*********/
 .lycee .img-section {
   height: 100vh;
