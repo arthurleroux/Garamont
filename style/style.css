@@ -591,7 +591,6 @@ footer .footer-right a:hover {
   width: 100%;
 }
 .lycee .temoignage-section {
-  height: 200px;
   background-color: #343a39;
 }
 .lycee .temoignage-section h2 {
@@ -639,14 +638,6 @@ footer .footer-right a:hover {
 .lycee .paragraphes-section .img-row {
   padding-top: 0;
   padding-bottom: 0;
-}
-.lycee .paragraphes-section .padding-right {
-  padding-right: 50px;
-  padding-left: 0;
-}
-.lycee .paragraphes-section .padding-left {
-  padding-left: 50px;
-  padding-right: 0;
 }
 .lycee .paragraphes-section h3 {
   color: #1fa17e;

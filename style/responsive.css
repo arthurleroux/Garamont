@@ -11,6 +11,16 @@
     text-align: center;
   }
 }
+@media (min-width: 992px) {
+  .lycee .paragraphes-section .padding-right {
+    padding-right: 50px;
+    padding-left: 0;
+  }
+  .lycee .paragraphes-section .padding-left {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+}
 @media (min-width: 768px) {
   .navbar-default {
     height: 75px;
