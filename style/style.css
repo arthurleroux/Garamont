@@ -742,6 +742,13 @@ footer .footer-right a:hover {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.projets-visuels .projets-visuels-2 .mask i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .projets-visuels .projets-visuels-2 .mask:hover {
   opacity: 1;
   background: rgba(0, 255, 139, 0.6);
@@ -760,6 +767,13 @@ footer .footer-right a:hover {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.projets-visuels .projets-visuels-3 .mask i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .projets-visuels .projets-visuels-3 .mask:hover {
   opacity: 1;
   background: rgba(0, 255, 139, 0.6);
@@ -777,6 +791,13 @@ footer .footer-right a:hover {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+.projets-visuels .projets-visuels-4 .mask i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .projets-visuels .projets-visuels-4 .mask:hover {
   opacity: 1;
