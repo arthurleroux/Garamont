@@ -1,8 +1,9 @@
-/*********Header*********/
+/*********BASE CSS*********/
 .no-padding {
   padding-left: 0;
   padding-right: 0;
 }
+/*********Header*********/
 .navbar-default {
   font-family: Garamond;
   background-color: #ffffff;
@@ -674,17 +675,110 @@ footer .footer-right a:hover {
   z-index: 1;
 }
 /*********Projets*********/
-.visuel-projets .img-section {
-  position: relative;
-  height: 100vh;
-  background: url("../img/projets.jpg") no-repeat center center / cover;
+.projets-titres h1 {
+  font-family: Garamond;
+  font-size: 20vw;
 }
-.visuel-projets .img-section .mask {
+.projets-tabs {
+  background-color: #ded8d8;
+}
+.projets-tabs .tab-1 ul {
+  float: none;
+  display: inline-block;
+}
+.projets-tabs .tab-1 ul li a {
+  font-family: Garamond;
+  font-size: 2.3em;
+  color: #000;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.projets-tabs .tab-1 ul li a:hover {
+  color: #1fa17e;
+}
+.projets-visuels .projets-visuels-1 .projets-items {
+  position: relative;
+}
+.projets-visuels .projets-visuels-1 .projets-items .mask {
+  opacity: 0;
   position: absolute;
-  background: rgba(255, 255, 255, 0.6);
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.projets-visuels .projets-visuels-1 .projets-items .mask i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.projets-visuels .projets-visuels-1 .projets-items .mask:hover {
+  opacity: 1;
+  background: rgba(0, 255, 139, 0.6);
+}
+.projets-visuels .projets-visuels-2 .mask {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.projets-visuels .projets-visuels-2 .mask:hover {
+  opacity: 1;
+  background: rgba(0, 255, 139, 0.6);
+}
+.projets-visuels .projets-visuels-3 .mask {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.projets-visuels .projets-visuels-3 .mask:hover {
+  opacity: 1;
+  background: rgba(0, 255, 139, 0.6);
+}
+.projets-visuels .projets-visuels-4 .mask {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.projets-visuels .projets-visuels-4 .mask:hover {
+  opacity: 1;
+  background: rgba(0, 255, 139, 0.6);
 }
