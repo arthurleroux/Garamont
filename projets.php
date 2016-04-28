@@ -35,35 +35,51 @@
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,39 +87,57 @@
                 <div class="row projets-visuels-2">
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,39 +145,57 @@
                 <div class="row projets-visuels-3">
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,39 +203,57 @@
                 <div class="row projets-visuels-4">
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 no-padding projets-items">
                         <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask"></div>
+                        <div class="mask">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
                     </div>
                 </div>
             </div>
