@@ -2,7 +2,9 @@
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
         <div class="visuel-entreprise">
-            <div class="container-fluid"></div>
+            <div class="container-fluid">
+                <div class="mask"></div>
+            </div>
         </div>
         <div class="container-fluid entreprise">
             <div class="title-entreprise text-center">
@@ -82,7 +84,7 @@
                                 </div>
                             </div>
                             <div class="offres-pif">
-                                <h4>Dans les arts graphiques</h4>
+                                <h4>En prépresse - Impression - Finition</h4>
                                 <div class="text-center contenu-pif">
                                     <a href="#" class="list-group-item">Offres impression</a>
                                     <a href="#" class="list-group-item">Offres finition</a>

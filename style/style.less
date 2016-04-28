@@ -446,12 +446,22 @@ footer{
 
 .visuel-entreprise {
   .container-fluid{
+    position: relative;
     background: url('../img/business.jpg') center center no-repeat scroll;
     height: 70vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    .mask {
+      position: absolute;
+      background: rgba(255,255,255,0.6);
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 1;
+    }
   }
 }
 
@@ -584,6 +594,7 @@ footer{
           text-transform: uppercase;
           color: white;
           padding: 25px 50px 25px 30px;
+          font-size: 1.3em;
           background-color: black;
         }
         .contenu-offres-arts{
@@ -609,6 +620,7 @@ footer{
           font-family: Garamond;
           text-transform: uppercase;
           color: white;
+          font-size: 1.3em;
           padding: 25px 50px 25px 30px;
           background-color: black;
         }
@@ -732,6 +744,7 @@ footer{
 
 .visuel-formation {
   .img-section {
+    position: relative;
     height: 100vh;
     background: url("../img/eleves.jpg") no-repeat center center / cover;
     .mask {
@@ -750,6 +763,7 @@ footer{
 
 .visuel-projets {
   .img-section {
+    position: relative;
     height: 100vh;
     background: url("../img/projets.jpg") no-repeat center center / cover;
     .mask {
