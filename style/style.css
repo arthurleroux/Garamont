@@ -54,6 +54,12 @@
   top: 3px;
   left: 25px;
 }
+.navbar-default .navbar-toggle {
+  border-color: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
 /*********Home*********/
 .home .container-fluid {
   padding: 0;
