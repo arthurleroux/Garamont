@@ -222,7 +222,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 no-padding">
                         <div class="modal-body">
                             <img class="img-responsive img-centered" src="img/formation.jpg" alt="">
                         </div>
