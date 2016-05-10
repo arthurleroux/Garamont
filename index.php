@@ -83,7 +83,8 @@
                 <h1>Formations</h1>
             </div>
         </div>
-        <div id="team" class="block">
+
+        <div id="team" class="block hidden-xs">
             <div class="container-fluid">
                 <div class="team">
                     <div class="teamrow row">
@@ -193,6 +194,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
     <!---------------------Actualités---------------------->

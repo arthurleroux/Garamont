@@ -1,4 +1,7 @@
 /*********BASE CSS*********/
+.garamond {
+  font-family: Garamond;
+}
 .no-padding {
   padding-left: 0;
   padding-right: 0;
@@ -589,12 +592,12 @@ footer .footer-right a:hover {
   }
 }
 /*********Lycée*********/
-.garamond {
-  font-family: Garamond;
+.lycee .titre {
+  text-align: right;
 }
 .lycee .img-section {
   position: relative;
-  height: 70vh;
+  max-height: 70vh;
   overflow: hidden;
 }
 .lycee .img-section .mask {
@@ -808,4 +811,125 @@ footer .footer-right a:hover {
 .projets-visuels .projets-visuels-4 .mask:hover {
   opacity: 1;
   background: rgba(0, 255, 139, 0.6);
+}
+@media (max-width: 600px) {
+  footer .footer-left {
+    text-align: center;
+  }
+  footer .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+  footer .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+}
+/********* @MEDIA *********/
+@media (min-width: 992px) {
+  .lycee .paragraphes-section .padding-right {
+    padding-right: 50px;
+    padding-left: 0;
+  }
+  .lycee .paragraphes-section .padding-left {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    height: 75px;
+  }
+  .navbar-default .navbar-header {
+    margin-top: calc(12.5px);
+  }
+  .navbar-default .navbar-collapse {
+    margin-top: calc(12.5px);
+  }
+  .navbar-default .navbar-collapse .pronote {
+    margin-top: 10px;
+  }
+  .home #carousel-example-generic {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1150px) {
+  .navbar-default .navbar-collapse .navbar-right {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1080px) {
+  .navbar-default .navbar-collapse .navbar-right li {
+    margin-right: 0;
+  }
+}
+@media (max-width: 960px) {
+  .navbar-default .navbar-collapse .navbar-right li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .navbar-default .navbar-brand img {
+    left: 5px;
+  }
+}
+@media (max-width: 885px) {
+  .navbar-default .navbar-collapse .navbar-right li {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 855px) {
+  .navbar-default .navbar-collapse .navbar-right li {
+    font-size: 1.2em;
+  }
+  .navbar-default .navbar-brand img {
+    width: 150px;
+    top: 10px;
+    left: 20px;
+  }
+}
+@media (max-width: 810px) {
+  .navbar-default .navbar-collapse .navbar-right li {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 991px) {
+  .lycee .titre {
+    text-align: center;
+  }
+  .lycee .temoignage-section {
+    padding-bottom: 30px;
+  }
+  .lycee .points-verts {
+    display: none;
+  }
+}
+@media (max-width: 783px) {
+  .lycee {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .home #carousel-example-generic .carousel-control img {
+    width: 50px;
+  }
+  .navbar-default .navbar-collapse {
+    text-align: center;
+    padding-left: 30px;
+  }
+  .navbar-default .navbar-collapse .navbar-right li {
+    font-size: 1.3em;
+  }
+  .navbar-default .navbar-collapse .navbar-right .pronote {
+    margin: 0 auto;
+    width: 110px;
+  }
+  .navbar-default .navbar-brand img {
+    width: 140px;
+    top: 1px;
+    left: 10px;
+  }
+  .lycee {
+    margin-top: 50px;
+  }
 }
