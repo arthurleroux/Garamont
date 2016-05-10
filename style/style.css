@@ -825,6 +825,85 @@ footer .footer-right a:hover {
     text-align: center;
   }
 }
+.portfolio-modal .modal-content {
+  -webkit-box-shadow: none;
+  background-clip: border-box;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  background-color: transparent;
+  cursor: pointer;
+  height: 75px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 75px;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: .3;
+}
+.portfolio-modal .close-modal .lr {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background-color: #222222;
+  height: 75px;
+  margin-left: 35px;
+  transform: rotate(45deg);
+  width: 1px;
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  background-color: #222222;
+  height: 75px;
+  transform: rotate(90deg);
+  width: 1px;
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  display: none;
+  opacity: 0;
+}
+.portfolio-modal .close-project button {
+  padding: 10px 60px 10px 60px;
+  background-color: #a5f9d3;
+  font-size: 1.2em;
+  color: black;
+  border: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  margin: 10px 0 10px 0;
+}
+.portfolio-modal .close-project button:hover {
+  background-color: #00ff8b;
+}
 /********* @MEDIA *********/
 @media (min-width: 992px) {
   .lycee .paragraphes-section .padding-right {
