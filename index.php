@@ -21,7 +21,7 @@
                         </div>
                         <div class="carousel-caption">
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-3">
+                                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
                                     <img src="img/logo_garamont.png" alt="">
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="carousel-caption">
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-3">
+                                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
                                     <img src="img/logo_garamont.png" alt="">
                                 </div>
                             </div>
