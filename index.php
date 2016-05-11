@@ -200,7 +200,7 @@
     <!---------------------Actualités---------------------->
 
 
-    <div class="container actus">
+    <div class="container-fluid no-padding actus">
         <h1>Actualités</h1>
         <div id="test">
             <div id="carousel" data-carousel="true">

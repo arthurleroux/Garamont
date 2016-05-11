@@ -58,6 +58,7 @@
   left: 25px;
 }
 .navbar-default .navbar-toggle {
+  border-radius: 0;
   border-color: #000000;
 }
 .navbar-default .navbar-toggle .icon-bar {
