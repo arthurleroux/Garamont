@@ -76,11 +76,79 @@
 
 
 
-    <div class="container-fluid block-formations"  id="formations">
+    <div class="container-fluid block-formations no-padding"  id="formations">
 
-        <div class="row">
-            <div class="text-center">
-                <h1>Formations</h1>
+        <div class="text-center">
+            <h1>Formations</h1>
+        </div>
+
+        <div id="team" class="block visible-xs">
+            <div class="team">
+
+                <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <!--<ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>-->
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="team-item col-xs-12">
+                                <div class="tream-entry">
+                                    <a href="" class="team-img">
+                                        <img src="img/projet.jpg" alt="" class="img-responsive">
+                                    </a>
+                                    <div class="team-hover table-view">
+                                        <div class="cell-view">
+                                            <div class="team-name">
+                                                <div class="h5">
+                                                    Formation
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="team-social">
+                                                lorem
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-item col-xs-12">
+                                <div class="tream-entry">
+                                    <a href="" class="team-img">
+                                        <img src="img/projet.jpg" alt="" class="img-responsive">
+                                    </a>
+                                    <div class="team-hover table-view">
+                                        <div class="cell-view">
+                                            <div class="team-name">
+                                                <div class="h5">
+                                                    Formation
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="team-social">
+                                                lorem
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-2" role="button" data-slide="prev">
+                        <img src="img/FlecheGauche.png" alt="">
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-2" role="button" data-slide="next">
+                        <img src="img/FlecheDroite.png" alt="">
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -200,7 +268,7 @@
     <!---------------------Actualités---------------------->
 
 
-    <div class="container-fluid no-padding actus">
+    <!--<div class="container-fluid no-padding actus">
         <h1>Actualités</h1>
         <div id="test">
             <div id="carousel" data-carousel="true">
@@ -273,17 +341,68 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!---------------------Galerie---------------------->
 
     <div class="container-fluid block-galerie">
-        <div class="row">
-            <div class="text-center">
-                <h1>Galerie</h1>
+        <div class="text-center">
+            <h1>Galerie</h1>
+        </div>
+        <div id="team" class="block visible-xs">
+            <div class="team">
+
+                <div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <!--<ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>-->
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="team-item col-xs-12">
+                                <div class="tream-entry">
+                                    <a href="" class="team-img">
+                                        <img src="img/back.jpg" alt="" class="img-responsive">
+                                    </a>
+                                    <div class="team-hover table-view">
+                                        <div class="cell-view">
+                                            <div class="team-name">Projet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-item col-xs-12">
+                                <div class="tream-entry">
+                                    <a href="" class="team-img">
+                                        <img src="img/back.jpg" alt="" class="img-responsive">
+                                    </a>
+                                    <div class="team-hover table-view">
+                                        <div class="cell-view">
+                                            <div class="team-name">Projet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-3" role="button" data-slide="prev">
+                        <img src="img/FlecheGauche.png" alt="">
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-3" role="button" data-slide="next">
+                        <img src="img/FlecheDroite.png" alt="">
+                    </a>
+                </div>
             </div>
         </div>
-        <div id="team" class="block">
+        <div id="team" class="block hidden-xs">
             <div class="container-fluid">
                 <div class="team">
                     <div class="teamrow row">

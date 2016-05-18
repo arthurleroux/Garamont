@@ -219,6 +219,26 @@ footer{
 }
 .team {
   margin-top: 50px;
+  #carousel-example-generic-2 {
+    .carousel-control {
+      background-image: none;
+      position: absolute;
+      top: 70%;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  #carousel-example-generic-3 {
+    .carousel-control {
+      background-image: none;
+      position: absolute;
+      top: 70%;
+      img {
+        width: 50px;
+      }
+    }
+  }
 }
 .tream-entry {
   border: 3px solid @vert;
@@ -339,23 +359,27 @@ footer{
 }
 /*Phones (<768px)*/
 @media (max-width: 767px) {
+  .team {
+    margin: 0;
+  }
   .block {
     padding-top: 50px;
     padding-bottom: 63px;
   }
 
   .tream-entry {
-    width: 170px;
-    height: 170px;
+    width: 260px;
+    height: 260px;
   }
 
   .tream-entry .team-img, .tream-entry .table-view {
-    width: 241px;
-    height: 241px;
+    width: 400px;
+    height: 400px;
   }
 
   .team-item {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
+    margin-top: 60px;
   }
 
   .teamrow {
@@ -368,6 +392,12 @@ footer{
 
   .hide-line{
     display: none;
+  }
+}
+@media (max-width: 520px) {
+  .tream-entry {
+    width: 240px;
+    height: 240px;
   }
 }
 /*********Home Actualité*********/
@@ -1355,12 +1385,12 @@ footer{
       }
     }
   }
-  .home {
+/*  .home {
     #carousel-example-generic {
       height: 100vh;
       overflow: hidden;
     }
-  }
+  }*/
 }
 
 @media (max-width: 1150px) {
