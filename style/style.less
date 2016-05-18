@@ -117,12 +117,13 @@
       }
     }
     .arrow {
-      margin-top: 50px;
+      margin-top: 100px;
       font-size: 6em;
       a {
         color: @vert;
       }
-      .fa {
+      img {
+        width: 80px;
         -webkit-transition: 0.3s;
         -moz-transition: 0.3s;
         -ms-transition: 0.3s;
@@ -1458,6 +1459,13 @@ footer{
       }
     }
   }
+  .home {
+    #carousel-example-generic {
+      .arrow {
+        margin-top: 70px;
+      }
+    }
+  }
 }
 
 @media (max-width: 855px) {
@@ -1516,7 +1524,10 @@ footer{
     margin-top: 50px;
     #carousel-example-generic {
       .arrow {
-        font-size: 3em;
+        margin-top: 50px;
+        img {
+          width: 60px;
+        }
       }
       .carousel-caption {
         top: 20%;
@@ -1557,7 +1568,7 @@ footer{
   .home {
     #carousel-example-generic {
       .arrow {
-        margin-top: 20px;
+        margin-top: 0;
       }
     }
   }

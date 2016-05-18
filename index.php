@@ -29,7 +29,7 @@
                                 <div class="arrow">
                                     <div class="text-center">
                                         <a href="#formations">
-                                            <i class="fa fa-arrow-circle-down"></i>
+                                            <img src="img/flecheHome.png" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@
                                 <div class="arrow">
                                     <div class="text-center">
                                         <a href="#formations">
-                                            <i class="fa fa-arrow-circle-down"></i>
+                                            <img src="img/flecheHome.png" alt="">
                                         </a>
                                     </div>
                                 </div>

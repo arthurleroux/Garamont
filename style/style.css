@@ -103,20 +103,21 @@
   width: 80px;
 }
 .home #carousel-example-generic .arrow {
-  margin-top: 50px;
+  margin-top: 100px;
   font-size: 6em;
 }
 .home #carousel-example-generic .arrow a {
   color: #00ff8b;
 }
-.home #carousel-example-generic .arrow .fa {
+.home #carousel-example-generic .arrow img {
+  width: 80px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.home #carousel-example-generic .arrow .fa:hover {
+.home #carousel-example-generic .arrow img:hover {
   -webkit-transform: scale(1.2, 1.2);
   -moz-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
@@ -1284,6 +1285,9 @@ footer .footer-right a:hover {
   .navbar-default .navbar-collapse .navbar-right li {
     font-size: 1.2em;
   }
+  .home #carousel-example-generic .arrow {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 855px) {
   .navbar-default .navbar-collapse .navbar-right li {
@@ -1321,7 +1325,10 @@ footer .footer-right a:hover {
     margin-top: 50px;
   }
   .home #carousel-example-generic .arrow {
-    font-size: 3em;
+    margin-top: 50px;
+  }
+  .home #carousel-example-generic .arrow img {
+    width: 60px;
   }
   .home #carousel-example-generic .carousel-caption {
     top: 20%;
@@ -1351,6 +1358,6 @@ footer .footer-right a:hover {
 }
 @media (max-width: 560px) {
   .home #carousel-example-generic .arrow {
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
