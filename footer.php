@@ -33,23 +33,16 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
-    <script type="text/javascript" src="js/parallax.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script>
         $(document).ready(function(){
             $("#sticker").sticky({topSpacing:0});
         });
     </script>
-    <script type="text/javascript" src="js/jquery.filterizr.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            //Initialize filterizr with default options
-            $('.filtr-container').filterizr();
-        });
-    </script>
     <script>
         new WOW().init();
     </script>
+    <script type="text/javascript" src="js/parallax.js"></script>
 
     </body>
 

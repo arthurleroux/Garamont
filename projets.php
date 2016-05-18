@@ -139,4 +139,12 @@
         </div>
     </div>
 
+
 <?php require("footer.php"); ?>
+<script type="text/javascript" src="js/jquery.filterizr.js"></script>
+<script type="text/javascript">
+    $(function() {
+        //Initialize filterizr with default options
+        $('.filtr-container').filterizr();
+    });
+</script>
