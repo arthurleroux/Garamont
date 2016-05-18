@@ -830,7 +830,7 @@ footer .footer-right a:hover {
   height: 100%;
 }
 .projets-visuels {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .projets-visuels .projets-visuels img {
   width: 100%;
