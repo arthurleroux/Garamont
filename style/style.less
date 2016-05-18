@@ -200,6 +200,22 @@ footer{
   }
 }
 
+@media (max-width: 600px) {
+  footer{
+    .footer-left {
+      text-align: center;
+      p.footer-links {
+        line-height: 1.8;
+      }
+    }
+    .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+  }
+}
+
 /*********Home Formation*********/
 
 .cell-view {
@@ -622,6 +638,7 @@ footer{
     }
   }
   .contenu-entreprise-2{
+    position: relative;
     .offres{
       background-color: #F7F7F7;
       padding: 35px;
@@ -687,6 +704,7 @@ footer{
     }
   }
 }
+
 
 @media (max-width: 991px) {
   .entreprise{
@@ -809,26 +827,102 @@ footer{
   }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+  .simplefilter li {
+    line-height: 36px;
+  }
+}
+
 .projets-tabs{
-  background-color: #ded8d8;
-  .tab-1{
-    ul{
-      float: none;
+  .simplefilter {
+    margin-bottom: 40px;
+    text-align: center;
+    overflow: hidden;
+    cursor: default;
+    li {
+      font-family: 'Lato', sans-serif;
       display: inline-block;
-      li{
-        a{
-          font-family: Garamond;
-          font-size: 2.3em;
-          color: #000;
-          text-transform: uppercase;
-          -webkit-transition: 0.3s;
-          -moz-transition: 0.3s;
-          -ms-transition: 0.3s;
-          -o-transition: 0.3s;
-          transition: 0.3s;
-          &:hover {
-            color: @vertMenu;
-          }
+      height: 34px;
+      margin: 0 15px 10px;
+      padding: 0 20px;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 34px;
+      text-transform: uppercase;
+      color: #000;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: border-color 160ms linear;
+      -moz-transition: border-color 160ms linear;
+      -o-transition: border-color 160ms linear;
+      transition: border-color 160ms linear;
+    }&:hover{
+      cursor: pointer;
+    }
+    .btn-lines {
+      position: relative;
+      .line-top {
+        position: absolute;
+        background: #666;
+        -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        transition: width 220ms ease-out 10ms, height 220ms ease-out 10ms;
+        width: 0;
+        height: 1px;
+        top: 0;
+        left: 0;
+      }
+      .line-bottom {
+        position: absolute;
+        background: #666;
+        -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        transition: width 220ms ease-out 10ms, height 220ms ease-out 10ms;
+        width: 0;
+        height: 1px;
+        bottom: 0;
+        right: 0;
+      }
+      .line-left {
+        position: absolute;
+        background: #666;
+        -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        transition: width 220ms ease-out 10ms, height 220ms ease-out 10ms;
+        width: 1px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .line-right {
+        position: absolute;
+        background: #666;
+        -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
+        transition: width 220ms ease-out 10ms, height 220ms ease-out 10ms;
+        width: 1px;
+        height: 0;
+        top: 0;
+        right: 0;
+      }
+      &:hover {
+        .line-top {
+          width: 100%;
+        }
+        .line-bottom {
+          width: 100%;
+        }
+        .line-left {
+          height: 100%;
+        }
+        .line-right {
+          height: 100%;
         }
       }
     }
@@ -836,7 +930,11 @@ footer{
 }
 
 .projets-visuels{
-  .projets-visuels-1{
+  overflow-x: hidden;
+  .projets-visuels{
+    img{
+      width: 100%;
+    }
     .projets-items{
       position: relative;
       .mask {
@@ -866,113 +964,17 @@ footer{
       }
     }
   }
-  .projets-visuels-2{
-    .mask {
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      z-index: 3;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s;
-      i{
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
-    .mask:hover{
-      opacity: 1;
-      background: rgba(0, 255, 139, 0.6);
-    }
-  }
-  .projets-visuels-3{
-    .mask {
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      z-index: 3;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s;
-      i{
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
-    .mask:hover{
-      opacity: 1;
-      background: rgba(0, 255, 139, 0.6);
-    }
-  }
-  .projets-visuels-4{
-    .mask {
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      z-index: 3;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s;
-      i{
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
-    .mask:hover{
-      opacity: 1;
-      background: rgba(0, 255, 139, 0.6);
-    }
-  }
 }
 
-@media (max-width: 600px) {
-  footer{
-    .footer-left {
-      text-align: center;
-      p.footer-links {
-        line-height: 1.8;
-      }
-    }
-    .footer-right {
-      float: none;
-      margin: 0 auto 20px;
-      text-align: center;
-    }
-  }
-}
-
-.portfolio-modal {
+.projets-modal {
+  width: 80%;
+  margin: 0 auto;
   .modal-content {
     -webkit-box-shadow: none;
     background-clip: border-box;
     border-radius: 0;
     border: 0;
     box-shadow: none;
-    min-height: 100%;
     padding: 100px 0;
     text-align: center;
     h2 {
@@ -994,6 +996,7 @@ footer{
     }
     img {
       margin-bottom: 30px;
+      overflow-x: hidden;
     }
   }
   .close-modal {
@@ -1048,6 +1051,23 @@ footer{
     }
   }
 }
+@media (max-width: 892px) {
+  .projets-visuels{
+    .projets-items{
+      width: 100%;
+    }
+  }
+  .projets-modal{
+    width: 100%;
+    .model-content{
+      min-height: 100%;
+    }
+  }
+}
+
+
+
+
 
 /*********contact*********/
 

@@ -4,222 +4,119 @@
         <h1>Projets</h1>
     </div>
 
-        <div class="container-fluid projets-tabs">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-collapse text-center tab-1" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" role="tablist">
-                    <li role="presentation" class="active">
-                        <a href="#category1" aria-controls="category1" role="tab" data-toggle="tab">Catégorie 1</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#category2" aria-controls="category2" role="tab" data-toggle="tab">Catégorie 2</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#category3" aria-controls="category3" role="tab" data-toggle="tab">Catégorie 3</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#category4" aria-controls="category4" role="tab" data-toggle="tab">Catégorie 4</a>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-        <!-- Tab panes -->
-    <div class="tab-content projets-visuels">
-        <div role="tabpanel" class="tab-pane fade in active" id="category1">
-            <div class="row projets-visuels-1">
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
+    <div class="container-fluid projets-tabs">
+        <nav class="nav navbar">
+            <ul class="simplefilter">
+
+                <li class="btn-lines" data-filter="all">Tout voir
+                    <!-- CSS Border Effect -->
+                    <span class="line-top"></span>
+                    <span class="line-bottom"></span>
+                    <span class="line-left"></span>
+                    <span class="line-right"></span>
+                </li>
+                <li class="btn-lines" data-filter="1">Web
+                    <!-- CSS Border Effect -->
+                    <span class="line-top"></span>
+                    <span class="line-bottom"></span>
+                    <span class="line-left"></span>
+                    <span class="line-right"></span></li>
+                <li class="btn-lines" data-filter="2">Graphisme
+                    <!-- CSS Border Effect -->
+                    <span class="line-top"></span>
+                    <span class="line-bottom"></span>
+                    <span class="line-left"></span>
+                    <span class="line-right"></span></li>
+                <li class="btn-lines" data-filter="3">Impression
+                    <!-- CSS Border Effect -->
+                    <!--
+                    <span class="line-top"></span>
+                      <span class="line-bottom"></span>
+                      <span class="line-left"></span>
+                      <span class="line-right"></span></li>
+                    <li class="btn-lines" data-filter=".branding">NSM
+                      -->
+
+                    <!-- CSS Border Effect -->
+                    <span class="line-top"></span>
+                    <span class="line-bottom"></span>
+                    <span class="line-left"></span>
+                    <span class="line-right"></span></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="container-fluid no-padding projets-visuels filtr-container">
+        <div class="row projets-visuels">
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="1">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
             </div>
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="category2">
-            <div class="row projets-visuels-2">
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="2">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
             </div>
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="category3">
-            <div class="row projets-visuels-3">
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="3">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
             </div>
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="category4">
-            <div class="row projets-visuels-4">
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 no-padding projets-items">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img class="img-responsive" src="img/formation.jpg" alt="">
-                        <div class="mask">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </a>
-                </div>
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="1">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="2">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="3">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 no-padding projets-items filtr-item" data-category="1">
+                <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
+                    <img class="img-responsive" src="img/formation.jpg" alt="">
+                    <div class="mask">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 
     <!-- Portfolio Modal 2 -->
 
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="projets-modal modal fade" id="projetsModel" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+<!--            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl"></div>
                 </div>
-            </div>
+            </div>-->
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 no-padding">
@@ -236,7 +133,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center close-project">
-                    <button type="button" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    <button type="button" data-dismiss="modal"><i class="fa fa-times"></i> Fermer le projet</button>
                 </div>
             </div>
         </div>

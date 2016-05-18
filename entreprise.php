@@ -71,8 +71,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 contenu-entreprise-2">
-                        <div class="offres">
+                    <div class="col-md-4 contenu-entreprise-2" >
+                        <div class="offres" id="sticker">
                             <h2>Offres d'emplois</h2>
                             <div class="offres-arts-graphiques">
                                 <h4>Dans les arts graphiques</h4>
