@@ -963,6 +963,80 @@ footer .footer-right a:hover {
     min-height: 100%;
   }
 }
+.formations .img-section {
+  margin-top: 75px;
+  position: relative;
+  max-height: 70vh;
+  overflow: hidden;
+}
+.formations .img-section img {
+  width: 100%;
+}
+.formations .nav-tabs {
+  box-shadow: 0 0 5px 0 #656565;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.formations .nav-tabs li {
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.formations .nav-tabs li .toutes {
+  font-size: 1.3em;
+}
+.formations .nav-tabs li .vert {
+  font-size: 1.2em;
+  color: #1fa17e;
+}
+.formations .nav-tabs li a {
+  color: #000000;
+}
+.formations .nav-tabs li a:hover {
+  text-decoration: none;
+}
+.formations .tab-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.formations .tab-content .losange {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+}
+.formations .tab-content .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0 50px 86.6px;
+  border-color: transparent transparent transparent #c6ffdb;
+}
+.formations .tab-content .item {
+  background-color: #c6ffdb;
+  right: 20%;
+  z-index: 1;
+  position: absolute;
+  width: 53.5%;
+  height: 60px;
+}
+.formations .tab-content .item-1 {
+  top: 1px;
+}
+.formations .tab-content .item-2 {
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  top: 50%;
+}
+.formations .tab-content .item-3 {
+  bottom: 1px;
+}
+@media (max-width: 768px) {
+  .formations .img-section {
+    margin-top: 50px;
+  }
+}
 /*********contact*********/
 .contact .part1 {
   overflow: hidden;
