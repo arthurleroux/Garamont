@@ -417,6 +417,14 @@ footer{
     height: 240px;
   }
 }
+
+@media (max-width: 370px) {
+  .tream-entry {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 /*********Home Actualité*********/
 
 .actus {
@@ -1460,13 +1468,13 @@ footer{
       left: 5px;
     }
   }
-  .home {
+  /*.home {
     #carousel-example-generic {
       .carousel-control {
         top: 30%;
       }
     }
-  }
+  }*/
 }
 
 @media (max-width: 885px) {
@@ -1588,10 +1596,15 @@ footer{
   .home {
     #carousel-example-generic {
       .arrow {
-        margin-top: 0;
+        position: relative;
+        bottom: 60px;
+        img {
+          width: 50px;
+        }
       }
     }
   }
 }
+
 
 

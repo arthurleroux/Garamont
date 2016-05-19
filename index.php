@@ -345,7 +345,7 @@
 
     <!---------------------Galerie---------------------->
 
-    <div class="container-fluid block-galerie">
+    <div class="container-fluid no-padding block-galerie">
         <div class="text-center">
             <h1>Galerie</h1>
         </div>
