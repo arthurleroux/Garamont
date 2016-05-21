@@ -1095,14 +1095,27 @@ footer{
         font-size: 1.2em;
         color: @vertMenu;
       }
+      &:hover {
+        a {
+          color: #000000;
+        }
+      }
       a {
+        border-radius: 0;
         color: #000000;
         &:hover {
           text-decoration: none;
+          background: none;
+          border-color: transparent;
         }
       }
       text-transform: uppercase;
       font-size: 1.1em;
+    }
+    li.active>a {
+      border-color: transparent;
+      border-left: 1px solid @vertMenu;
+      border-right: 1px solid @vertMenu;
     }
   }
   .tab-content {

@@ -988,11 +988,22 @@ footer .footer-right a:hover {
   font-size: 1.2em;
   color: #1fa17e;
 }
+.formations .nav-tabs li:hover a {
+  color: #000000;
+}
 .formations .nav-tabs li a {
+  border-radius: 0;
   color: #000000;
 }
 .formations .nav-tabs li a:hover {
   text-decoration: none;
+  background: none;
+  border-color: transparent;
+}
+.formations .nav-tabs li.active > a {
+  border-color: transparent;
+  border-left: 1px solid #1fa17e;
+  border-right: 1px solid #1fa17e;
 }
 .formations .tab-content {
   padding-top: 20px;
