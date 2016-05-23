@@ -14,7 +14,7 @@
                         <b class="toutes">Toutes les formations</b>
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="col-md-2">
                     <a href="#ind_graph" aria-controls="ind_graph" role="tab" data-toggle="tab">
                        <span class="vert">
                            bac pro
@@ -59,28 +59,67 @@
                 <div role="tabpanel" class="tab-pane active" id="toutes">
                     <div class="row">
                         <div class="col-md-5 col-md-offset-1">
-                            <img class="losange" src="img/ind_grap.png" alt="">
+                            <a href=""><img class="losange" src="img/ind_grap.png" alt=""></a>
                             <div class="row">
-                                <div class="item item-1">
+                                <div class="item item-1 text-right padding-right">
+                                    <p>Façonnage industriel et routage</p>
                                 </div>
-                                <!--<div class="triangle">
-                                </div>-->
+                                <div class="triangle triangle-1">
+                                </div>
                             </div>
                             <div class="row">
-                                <div class="item item-2">
+                                <div class="item item-2 text-right padding-right">
+                                    <p>Production imprimée</p>
                                 </div>
-                                <!-- <div class="triangle">
-                                 </div>-->
+                                 <div class="triangle triangle-2">
+                                 </div>
                             </div>
                             <div class="row">
-                                <div class="item item-3">
+                                <div class="item item-3 text-right padding-right">
+                                    <p>Production graphique</p>
                                 </div>
-                                <!--<div class="triangle">
-                                </div>-->
+                                <div class="triangle triangle-3">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-5">
-
+                            <a href=""><img class="losange" src="img/com_graph.png" alt=""></a>
+                            <div class="row">
+                                <div class="item item-4 text-right padding-right">
+                                    <p><span>Études et réalisation de <br> produits imprimés</span></p>
+                                </div>
+                                <div class="triangle triangle-4">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item item-5 text-right padding-right">
+                                    <p><span>Études et réalisation de <br> produits graphiques</span></p>
+                                </div>
+                                <div class="triangle triangle-5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-5 col-md-offset-1">
+                            <a href=""><img class="losange" src="img/artisanat.png" alt=""></a>
+                            <div class="row">
+                                <div class="item item-2 text-right padding-right">
+                                    <p><span>Communication <br> visuelle</span></p>
+                                </div>
+                                <div class="triangle triangle-2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <a href=""><img class="losange" src="img/design.png" alt=""></a>
+                            <div class="row">
+                                <div class="item item-2 text-right padding-right">
+                                    <p><span>Communication et <br> médias imprimés</span></p>
+                                </div>
+                                <div class="triangle triangle-2">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
