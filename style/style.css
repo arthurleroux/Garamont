@@ -1015,8 +1015,6 @@ footer .footer-right a:hover {
 }
 .formations .nav-tabs li.active > a {
   border-color: transparent;
-  border-left: 1px solid #1fa17e;
-  border-right: 1px solid #1fa17e;
 }
 .formations .tab-content {
   padding-top: 20px;
@@ -1081,6 +1079,9 @@ footer .footer-right a:hover {
 }
 .formations .tab-content .padding-right {
   padding-right: 20px;
+}
+.formations .tab-content .border-left {
+  border-left: 1px solid #000000;
 }
 @media (max-width: 768px) {
   .formations .img-section {

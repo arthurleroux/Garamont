@@ -125,7 +125,18 @@
                 </div>
 
                 <div role="tabpanel" class="tab-pane" id="ind_graph">
-                    Industries graphiques
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-8 col-md-offset-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                    </div>
                 </div>
 
                 <div role="tabpanel" class="tab-pane" id="com_grap">
