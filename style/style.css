@@ -1074,14 +1074,25 @@ footer .footer-right a:hover {
 .formations .tab-content .triangle-5 {
   bottom: 30px;
 }
-.formations .tab-content .margin-top-20 {
-  margin-top: 20px;
-}
-.formations .tab-content .padding-right {
-  padding-right: 20px;
-}
-.formations .tab-content .border-left {
+.formations .tab-content .text-div {
   border-left: 1px solid #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 100px 20px 200px 10%;
+}
+.formations .tab-content .title-div {
+  margin-top: 30px;
+}
+.formations .tab-content .title-div h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.formations .tab-content .title-div .border-left {
+  border-left: 1px solid #000000;
+}
+.formations .tab-content .title-div .vert {
+  color: #1fa17e;
 }
 @media (max-width: 768px) {
   .formations .img-section {
