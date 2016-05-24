@@ -972,19 +972,19 @@ footer .footer-right a:hover {
 .formations .img-section img {
   width: 100%;
 }
-.formations .nav-tabs {
+.formations .nav-top {
   box-shadow: 0 0 5px 0 #656565;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.formations .nav-tabs li {
+.formations .nav-top li {
   text-transform: uppercase;
   font-size: 1.1em;
 }
-.formations .nav-tabs li .toutes {
+.formations .nav-top li .toutes {
   font-size: 1.3em;
 }
-.formations .nav-tabs li .vert {
+.formations .nav-top li .vert {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -993,13 +993,13 @@ footer .footer-right a:hover {
   font-size: 1.2em;
   color: #1fa17e;
 }
-.formations .nav-tabs li:hover a {
+.formations .nav-top li:hover a {
   color: #1fa17e;
 }
-.formations .nav-tabs li:hover .vert {
+.formations .nav-top li:hover .vert {
   color: #000000;
 }
-.formations .nav-tabs li a {
+.formations .nav-top li a {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -1008,12 +1008,12 @@ footer .footer-right a:hover {
   border-radius: 0;
   color: #000000;
 }
-.formations .nav-tabs li a:hover {
+.formations .nav-top li a:hover {
   text-decoration: none;
   background: none;
   border-color: transparent;
 }
-.formations .nav-tabs li.active > a {
+.formations .nav-top li.active > a {
   border-color: transparent;
 }
 .formations .tab-content {
@@ -1074,6 +1074,9 @@ footer .footer-right a:hover {
 .formations .tab-content .triangle-5 {
   bottom: 30px;
 }
+.formations .tab-content .margin-top-20 {
+  margin-top: 20px;
+}
 .formations .tab-content .text-div {
   border-left: 1px solid #000000;
   margin-top: 20px;
@@ -1093,6 +1096,26 @@ footer .footer-right a:hover {
 }
 .formations .tab-content .title-div .vert {
   color: #1fa17e;
+}
+.formations .tab-content .nav-side {
+  float: right;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.formations .tab-content .nav-side li {
+  font-size: 1.2em;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid #000000;
+}
+.formations .tab-content .nav-side li:last-child {
+  border-bottom: none;
+}
+.formations .tab-content .nav-side li a {
+  color: #000000;
+  text-decoration: none;
 }
 @media (max-width: 768px) {
   .formations .img-section {

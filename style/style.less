@@ -1083,7 +1083,7 @@ footer{
     max-height: 70vh;
     overflow: hidden;
   }
-  .nav-tabs {
+  .nav-top {
     box-shadow: 0 0 5px 0 #656565;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1181,6 +1181,9 @@ footer{
     .item-5, .triangle-5 {
       bottom: 30px;
     }
+    .margin-top-20 {
+      margin-top: 20px;
+    }
     .text-div {
       border-left: 1px solid #000000;
       margin-top: 20px;
@@ -1199,6 +1202,26 @@ footer{
       }
       .vert {
         color: @vertMenu;
+      }
+    }
+    .nav-side {
+      float: right;
+      margin-top: 50px;
+      margin-right: 10px;
+      li {
+        font-size: 1.2em;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid #000000;
+        &:last-child {
+          border-bottom: none;
+        }
+        a {
+          color: #000000;
+          text-decoration: none;
+        }
       }
     }
   }
