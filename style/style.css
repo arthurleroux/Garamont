@@ -1014,6 +1014,8 @@ footer .footer-right a:hover {
   border-color: transparent;
 }
 .formations .nav-top li.active > a {
+  font-weight: bold;
+  color: #000000;
   border-color: transparent;
 }
 .formations .tab-content {
@@ -1116,6 +1118,9 @@ footer .footer-right a:hover {
 .formations .tab-content .nav-side li a {
   color: #000000;
   text-decoration: none;
+}
+.formations .tab-content .nav-side li.active > a {
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .formations .img-section {

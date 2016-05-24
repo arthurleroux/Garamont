@@ -11,7 +11,7 @@
 
                 <li role="presentation" class="active col-md-2 col-md-offset-1 text-center">
                     <a href="#toutes" aria-controls="toutes" role="tab" data-toggle="tab">
-                        <b class="toutes">Toutes les formations</b>
+                        <span class="toutes">Toutes les formations</span>
                     </a>
                 </li>
                 <li role="presentation" class="col-md-2 text-center">
@@ -138,15 +138,15 @@
                             </div>
                             <ul class="nav-side col-md-offset-3" role="tablist">
                                 <li role="presentation" class="active"><a href="#ind" aria-controls="ind" role="tab" data-toggle="tab">Façonnage industriel et routage</a></li>
-                                <li role="presentation"><a href="#impr" aria-controls="impr" role="tab" data-toggle="tab">Production imprimée</a></li>
-                                <li role="presentation"><a href="#graph" aria-controls="graph" role="tab" data-toggle="tab">Production graphique</a></li>
+                                <li role="presentation"><a href="#prod-impr" aria-controls="prod-impr" role="tab" data-toggle="tab">Production imprimée</a></li>
+                                <li role="presentation"><a href="#prod-graph" aria-controls="prod-graph" role="tab" data-toggle="tab">Production graphique</a></li>
                             </ul>
                         </div>
                         <div class="col-md-7 text-div">
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane fade in active" id="ind"><h2>Façonnage industriel et routage</h2></div>
-                                <div role="tabpanel" class="tab-pane fade " id="impr"><h2>Production imprimée</h2></div>
-                                <div role="tabpanel" class="tab-pane fade" id="graph"><h2>Production graphique</h2></div>
+                                <div role="tabpanel" class="tab-pane fade " id="prod-impr"><h2>Production imprimée</h2></div>
+                                <div role="tabpanel" class="tab-pane fade" id="prod-graph"><h2>Production graphique</h2></div>
                             </div>
                         </div>
                     </div>
@@ -154,13 +154,26 @@
 
                 <div role="tabpanel" class="tab-pane fade" id="com_grap">
                     <div class="container-fluid">
-                        <div class="col-md-3 title-div">
-                            <div class="col-md-4 text-center vert">
-                                <h4>b.t.s</h4>
+                        <div class="col-md-3">
+                            <div class="title-div">
+                                <div class="col-md-4 text-center vert">
+                                    <h4>b.t.s</h4>
+                                </div>
+                                <div class="col-md-8 text-center border-left">
+                                    <h4>Communication et industrie graphique</h4>
+                                </div>
                             </div>
-                            <div class="col-md-8 text-center border-left">
-                                <h4>Communication et industrie graphique</h4>
+                            <ul class="nav-side col-md-offset-3" role="tablist">
+                                <li role="presentation" class="active"><a href="#e-impr" aria-controls="e-impr" role="tab" data-toggle="tab">Études et réalisation de produits imprimés</a></li>
+                                <li role="presentation"><a href="#e-graph" aria-controls="e-graph" role="tab" data-toggle="tab">Études et réalisation de produits graphiques</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7 text-div">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="e-impr"><h2>Études et réalisation de produits imprimés</h2></div>
+                                <div role="tabpanel" class="tab-pane fade " id="e-graph"><h2>Études et réalisation de produits graphiques</h2></div>
                             </div>
+                        </div>
                         </div>
                         <div class="col-md-7 text-div">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
