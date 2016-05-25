@@ -1101,8 +1101,8 @@ footer .footer-right a:hover {
 }
 .formations .tab-content .nav-side {
   float: right;
-  margin-top: 50px;
   margin-right: 10px;
+  padding-left: 0;
 }
 .formations .tab-content .nav-side li {
   font-size: 1.2em;
@@ -1121,6 +1121,21 @@ footer .footer-right a:hover {
 }
 .formations .tab-content .nav-side li.active > a {
   font-weight: bold;
+}
+.formations .tab-content .nav-side li.title {
+  margin-bottom: 100px;
+  border-bottom: none;
+}
+.formations .tab-content .nav-side li.title h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.formations .tab-content .nav-side li.title .border-left {
+  border-left: 1px solid #000000;
+}
+.formations .tab-content .nav-side li.title .vert {
+  color: #1fa17e;
 }
 @media (max-width: 768px) {
   .formations .img-section {

@@ -1208,8 +1208,8 @@ footer{
     }
     .nav-side {
       float: right;
-      margin-top: 50px;
       margin-right: 10px;
+      padding-left: 0;
       li {
         font-size: 1.2em;
         padding-bottom: 15px;
@@ -1227,6 +1227,21 @@ footer{
       }
       li.active>a {
         font-weight: bold;
+      }
+      li.title {
+        margin-bottom: 100px;
+        h4 {
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        .border-left {
+          border-left: 1px solid #000000;
+        }
+        .vert {
+          color: @vertMenu;
+        }
+        border-bottom: none;
       }
     }
   }

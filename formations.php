@@ -128,30 +128,38 @@
                 <div role="tabpanel" class="tab-pane fade" id="ind_graph">
                     <div class="container-fluid">
                         <div class="col-md-3">
-                            <div class="title-div">
-                                <div class="col-md-4 text-center vert">
-                                    <h4>Bac pro</h4>
-                                </div>
-                                <div class="col-md-8 text-center border-left">
-                                    <h4>Industrie graphique</h4>
-                                </div>
-                            </div>
-                            <ul class="nav-side col-md-offset-3" role="tablist">
-                                <li role="presentation" class="active">
+                            <ul class="nav-side" role="tablist">
+                                <li role="presentation" class="active title">
+                                    <a href="#ind_graph_gen" aria-controls="ind_graph_gen" role="tab" data-toggle="tab">
+                                        <div class="col-md-4 text-center vert">
+                                            <h4>Bac pro</h4>
+                                        </div>
+                                        <div class="col-md-8 text-center border-left">
+                                            <h4>Industrie graphique</h4>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="col-md-offset-4">
                                     <a href="#ind" aria-controls="ind" role="tab" data-toggle="tab">Façonnage industriel et routage</a>
                                 </li>
-                                <li role="presentation">
+                                <li role="presentation" class="col-md-offset-4">
                                     <a href="#prod-impr" aria-controls="prod-impr" role="tab" data-toggle="tab">Production imprimée</a>
                                 </li>
-                                <li role="presentation">
+                                <li role="presentation" class="col-md-offset-4">
                                     <a href="#prod-graph" aria-controls="prod-graph" role="tab" data-toggle="tab">Production graphique</a>
                                 </li>
                             </ul>
-                            
+
                         </div>
                         <div class="col-md-7 text-div">
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade in active" id="ind">
+                                <div role="tabpanel" class="tab-pane fade in active" id="ind_graph_gen">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi aspernatur at autem consequatur dolore ea eius excepturi itaque libero quis quo reiciendis sunt tenetur ut, voluptates, voluptatum. Iusto.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi at beatae commodi consectetur consequuntur deserunt error, exercitationem, in natus, nihil obcaecati officia optio provident sapiente similique suscipit tempora vero!
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="ind">
                                     <h2>Façonnage industriel et routage</h2>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade " id="prod-impr">
@@ -168,26 +176,34 @@
                 <div role="tabpanel" class="tab-pane fade" id="com_grap">
                     <div class="container-fluid">
                         <div class="col-md-3">
-                            <div class="title-div">
-                                <div class="col-md-4 text-center vert">
-                                    <h4>b.t.s</h4>
-                                </div>
-                                <div class="col-md-8 text-center border-left">
-                                    <h4>Communication et industrie graphique</h4>
-                                </div>
-                            </div>
-                            <ul class="nav-side col-md-offset-3" role="tablist">
-                                <li role="presentation" class="active">
+                            <ul class="nav-side" role="tablist">
+                                <li role="presentation" class="active title">
+                                    <a href="#com_graph_gen" aria-controls="com_graph_gen" role="tab" data-toggle="tab">
+                                        <div class="col-md-4 text-center vert">
+                                            <h4>b.t.s</h4>
+                                        </div>
+                                        <div class="col-md-8 text-center border-left">
+                                            <h4>Communication et industrie graphique</h4>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="col-md-offset-4">
                                     <a href="#e-impr" aria-controls="e-impr" role="tab" data-toggle="tab">Études et réalisation de produits imprimés</a>
                                 </li>
-                                <li role="presentation">
+                                <li role="presentation" class="col-md-offset-4">
                                     <a href="#e-graph" aria-controls="e-graph" role="tab" data-toggle="tab">Études et réalisation de produits graphiques</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-7 text-div">
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade in active" id="e-impr">
+                                <div role="tabpanel" class="tab-pane fade in active" id="com_graph_gen">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi aspernatur at autem consequatur dolore ea eius excepturi itaque libero quis quo reiciendis sunt tenetur ut, voluptates, voluptatum. Iusto.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi at beatae commodi consectetur consequuntur deserunt error, exercitationem, in natus, nihil obcaecati officia optio provident sapiente similique suscipit tempora vero!
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi, debitis dolorem ea fuga, incidunt laudantium magnam maxime minus nam necessitatibus obcaecati placeat quod similique sit totam vel veritatis voluptate!</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="e-impr">
                                     <h2>Études et réalisation de produits imprimés</h2>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade " id="e-graph">
