@@ -13,6 +13,17 @@
   padding-right: 0;
 }
 
+.no-margin{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
 /*********Header*********/
 
 .navbar-default {
@@ -137,81 +148,6 @@
           transform: scale(1.2, 1.2);
         }
       }
-    }
-  }
-}
-
-
-/*********Footer*********/
-
-footer{
-  background-color: #ded8d8;
-  padding: 45px 50px;
-  text-align: left;
-  width: 100%;
-  .footer-left {
-    p {
-      color: #8f9296;
-      font-size: 0.875em;
-      margin: 0;
-    }
-  }
-  p.footer-links {
-    color: @color0;
-    font-size: 1.125em;
-    font-weight: bold;
-    margin: 0 0 10px;
-    padding: 0;
-    a {
-      color: inherit;
-      display: inline-block;
-      line-height: 1.8;
-      text-decoration: none;
-      -webkit-transition: all .3s;
-      -moz-transition: all .3s;
-      transition: all .3s;
-    }
-    a:hover{
-      color: @vert;
-    }
-  }
-  .footer-right {
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
-    a {
-      background-color: #736f6f;
-      border-radius: 2px;
-      color: @color0;
-      display: inline-block;
-      font-size: 1.250em;
-      height: 35px;
-      line-height: 35px;
-      margin-left: 3px;
-      text-align: center;
-      width: 35px;
-      -webkit-transition: all .3s;
-      -moz-transition: all .3s;
-      transition: all .3s;
-    }
-    a:hover{
-      background-color: @vert;
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  footer{
-    .footer-left {
-      text-align: center;
-      p.footer-links {
-        line-height: 1.8;
-      }
-    }
-    .footer-right {
-      float: none;
-      margin: 0 auto 20px;
-      text-align: center;
     }
   }
 }
@@ -543,7 +479,8 @@ footer{
     margin-top: 50px;
     margin-bottom: 50px;
     .taxe{
-      background-color: #F7F7F7;
+      position: relative;
+      background: #F7F7F7;
       padding: 35px;
       h2{
         font-family: Garamond;
@@ -807,31 +744,36 @@ footer{
   }
 }
 
-/*********Formation*********/
+/*********Projets*********/
 
-.visuel-formation {
-  .img-section {
+.visuel-projets {
+  h1{
+    text-transform: uppercase;
+    font-size: 10vw;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
+  .container-fluid{
     position: relative;
-    height: 100vh;
-    background: url("../img/eleves.jpg") no-repeat center center / cover;
+    background: url('../img/projet_entete.JPG') center center no-repeat scroll;
+    height: 70vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     .mask {
       position: absolute;
-      background: rgba(255, 255, 255, 0.6);
+      background: rgba(255,255,255,0.6);
       top: 0;
       bottom: 0;
       right: 0;
       left: 0;
       z-index: 1;
     }
-  }
-}
-
-/*********Projets*********/
-
-.projets-titres{
-  h1{
-    font-family: Garamond;
-    font-size: 20vw;
   }
 }
 
@@ -842,6 +784,7 @@ footer{
 }
 
 .projets-tabs{
+  margin-top: 50px;
   .simplefilter {
     margin-bottom: 40px;
     text-align: center;
@@ -873,7 +816,7 @@ footer{
       position: relative;
       .line-top {
         position: absolute;
-        background: #666;
+        background: #00ff8b;
         -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
@@ -885,7 +828,7 @@ footer{
       }
       .line-bottom {
         position: absolute;
-        background: #666;
+        background: #00ff8b;
         -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
@@ -897,7 +840,7 @@ footer{
       }
       .line-left {
         position: absolute;
-        background: #666;
+        background: #00ff8b;
         -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
@@ -909,7 +852,7 @@ footer{
       }
       .line-right {
         position: absolute;
-        background: #666;
+        background: #00ff8b;
         -webkit-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -moz-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
         -o-transition: width 210ms ease-out 10ms, height 210ms ease-out 10ms;
@@ -944,6 +887,7 @@ footer{
       width: 100%;
     }
     .projets-items{
+      margin: 0 0 0 0;
       position: relative;
       .mask {
         opacity: 0;
@@ -985,26 +929,29 @@ footer{
     box-shadow: none;
     padding: 100px 0;
     text-align: center;
-    h2 {
-      font-size: 3em;
-      margin-bottom: 15px;
-    }
-    p {
-      margin-bottom: 30px;
-    }
-    p.item-intro {
-      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 16px;
-      font-style: italic;
-      margin: 20px 0 30px;
-    }
-    ul.list-inline {
-      margin-bottom: 30px;
-      margin-top: 0;
-    }
-    img {
-      margin-bottom: 30px;
-      overflow-x: hidden;
+    .modal-window {
+      padding: 0 20px 0 20px;
+      h2 {
+        font-size: 3em;
+        margin-bottom: 15px;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      p.item-intro {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        margin: 20px 0 30px;
+      }
+      ul.list-inline {
+        margin-bottom: 30px;
+        margin-top: 0;
+      }
+      img {
+        overflow-x: hidden;
+        margin: 0 auto;
+      }
     }
   }
   .close-modal {
@@ -1069,6 +1016,26 @@ footer{
     width: 100%;
     .model-content{
       min-height: 100%;
+    }
+  }
+}
+
+
+/*********Formation*********/
+
+.visuel-formation {
+  .img-section {
+    position: relative;
+    height: 100vh;
+    background: url("../img/eleves.jpg") no-repeat center center / cover;
+    .mask {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.6);
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 1;
     }
   }
 }
@@ -1788,3 +1755,76 @@ footer{
 
 
 
+/*********Footer*********/
+
+footer{
+  background-color: #ded8d8;
+  padding: 45px 50px;
+  text-align: left;
+  width: 100%;
+  .footer-left {
+    p {
+      color: #8f9296;
+      font-size: 0.875em;
+      margin: 0;
+    }
+  }
+  p.footer-links {
+    color: @color0;
+    font-size: 1.125em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+    a {
+      color: inherit;
+      display: inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+    }
+    a:hover{
+      color: @vert;
+    }
+  }
+  .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+    a {
+      background-color: #736f6f;
+      border-radius: 2px;
+      color: @color0;
+      display: inline-block;
+      font-size: 1.250em;
+      height: 35px;
+      line-height: 35px;
+      margin-left: 3px;
+      text-align: center;
+      width: 35px;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+    }
+    a:hover{
+      background-color: @vert;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  footer{
+    .footer-left {
+      text-align: center;
+      p.footer-links {
+        line-height: 1.8;
+      }
+    }
+    .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+  }
+}

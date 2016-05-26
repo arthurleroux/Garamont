@@ -1,7 +1,10 @@
 <?php require("header.php"); ?>
 
-    <div class="container text-center projets-titres">
-        <h1>Projets</h1>
+    <div class="visuel-projets">
+        <div class="container-fluid">
+            <div class="mask"></div>
+                <h1 class="text-center garamond vcenter">Projet</h1>
+        </div>
     </div>
 
     <div class="container-fluid projets-tabs">
@@ -48,7 +51,7 @@
     </div>
 
     <div class="container-fluid no-padding projets-visuels filtr-container">
-        <div class="row projets-visuels">
+        <div class="row no-margin projets-visuels">
             <div class="col-md-4 no-padding projets-items filtr-item" data-category="1">
                 <a href="#projetsModel" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive" src="img/formation.jpg" alt="">
@@ -112,12 +115,12 @@
 
     <div class="projets-modal modal fade" id="projetsModel" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-<!--            <div class="close-modal" data-dismiss="modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl"></div>
                 </div>
-            </div>-->
-            <div class="container">
+            </div>
+            <div class="modal-window">
                 <div class="row">
                     <div class="col-md-6 no-padding">
                         <div class="modal-body">
