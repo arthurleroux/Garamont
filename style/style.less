@@ -18,12 +18,6 @@
   margin-right: 0;
 }
 
-.vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
-
 /*********Header*********/
 
 .navbar-default {
@@ -455,6 +449,16 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    h1{
+      text-transform: uppercase;
+      font-size: 10vw;
+      position: absolute;
+      color: #666;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+    }
     .mask {
       position: absolute;
       background: rgba(255,255,255,0.6);
@@ -1227,50 +1231,55 @@
 /*********contact*********/
 
 .contact {
-  .part1{
-    overflow:hidden;
-    width: 100%;
-    height: 350px;
-    background-color: #fff;
-  }
-
-  #vert{
-
-    width: 39%;
-    margin-left: -5%;
-    margin-top: -144px;
-  }
-  @media (max-width: 678px){
-    #vert{
-
-      width: 39%;
-      margin-left: -5%;
-      margin-top: 10px;
+  overflow-x: hidden;
+  .visuel-contact{
+    h1{
+      text-transform: uppercase;
+      font-size: 10vw;
+      position: absolute;
+      color: #666;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+    .container-fluid{
+      position: relative;
+      background: url('../img/contact3.png') center center no-repeat scroll;
+      height: 70vh;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      .mask {
+        position: absolute;
+        background: rgba(255,255,255,0.6);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+      }
     }
   }
-  h2{
-    position: absolute;
-    z-index: 1;
-    margin-left: 35%;
-    margin-top: -32%;
-    font-family: 'EB Garamond', serif;
+
+  .contact-texte{
+    padding: 30px 0 30px 0;
+    .row{
+      .col-md-offset-3{
+        h2{
+          color: #666666;
+        }
+      }
+    }
   }
-  p{
-    position: absolute;
-    z-index: 1;
-    margin-left: 35%;
-    margin-top: -27%;
-    font-family: 'EB Garamond', serif;
-  }
-  .filtre{
-    width: 100%;
-    background-color: white;
-    opacity: 0.6;
-    filter: Alpha(opacity=50); /* IE8 and earlier */
+
+  .map-contact{
+    padding: 30px;
+    background-color: #F7F7F7;
   }
   .map{
-    width: 100%;
-    background-color: #f6f6f6;
+    background-color: #F7F7F7;
     height: 564px;
   }
   iframe{
@@ -1291,15 +1300,6 @@
   }
 
 
-  *{
-    margin: 0;
-    padding: 0;
-  }
-
-  body{
-    background: #f9f9f9;
-  }
-
   h2, input, textarea, button{
     font-family: 'EB Garamond', serif;
   }
@@ -1309,23 +1309,6 @@
   ::-moz-placeholder {  /* Firefox 19+ */ color: #777;}
   :-ms-input-placeholder {color: #777;}
 
-  .container{
-    width: 90%;
-    padding: 15px;
-    margin: 50px auto;
-  }
-
-  .container h2{
-    text-align: center;
-    text-transform: uppercase;
-    color: #f55;
-  }
-
-  .title-bar{
-    margin: 1px auto 10px auto;
-    width: 100px;
-    border-bottom: 1px solid #d9d9d9;
-  }
 
   #contact input[type="text"],#contact input[type="email"], #contact textarea{
     display: block;
@@ -1386,40 +1369,6 @@
     Responsive
 \*##############*/
 
-@media (max-width: 678px){
-  #contact textarea{
-    max-width: 90%;
-    min-width: 90%;
-    max-height: 150px;
-    min-height: 150px;
-    resize: none;
-  }
-}
-
-@media screen and (min-width: 640px){
-  .contact {
-    .container{
-      width: 100%;
-    }
-
-    #contact .right,#contact .left{
-      display: block;
-    }
-
-    #contact .right{
-      float: right;
-      width: 50%;
-    }
-    #contact .left{
-      float: right;
-      width: 50%;
-      margin-left: 42px;
-    }
-    .cl{
-      clear: both;
-    }
-  }
-}
 
 .actus {
   body {

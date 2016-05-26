@@ -4,12 +4,10 @@
         <div class="visuel-entreprise">
             <div class="container-fluid">
                 <div class="mask"></div>
+                <h1 class="text-center garamond">Entreprise</h1>
             </div>
         </div>
         <div class="container-fluid entreprise">
-            <div class="title-entreprise text-center">
-                <h1>Entreprise</h1>
-            </div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8 contenu-entreprise-1">

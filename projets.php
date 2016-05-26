@@ -3,7 +3,7 @@
     <div class="visuel-projets">
         <div class="container-fluid">
             <div class="mask"></div>
-                <h1 class="text-center garamond vcenter">Projet</h1>
+                <h1 class="text-center garamond">Projet</h1>
         </div>
     </div>
 
