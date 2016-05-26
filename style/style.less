@@ -666,6 +666,36 @@
 /*********Lycée*********/
 
 .lycee {
+  .visuel-lycée{
+    h1{
+      text-transform: uppercase;
+      font-size: 10vw;
+      position: absolute;
+      color: #666666;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+    }
+    .container-fluid{
+      position: relative;
+      background: url('../img/projet_entete.JPG') center center no-repeat scroll;
+      height: 70vh;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      .mask {
+        position: absolute;
+        background: rgba(255,255,255,0.6);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+      }
+    }
+  }
   .titre {
     text-align: right;
   }
@@ -1026,23 +1056,6 @@
 
 
 /*********Formation*********/
-
-.visuel-formation {
-  .img-section {
-    position: relative;
-    height: 100vh;
-    background: url("../img/eleves.jpg") no-repeat center center / cover;
-    .mask {
-      position: absolute;
-      background: rgba(255, 255, 255, 0.6);
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      z-index: 1;
-    }
-  }
-}
 
 .formations {
   .img-section {

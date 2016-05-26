@@ -1,9 +1,10 @@
 <?php require("header.php"); ?>
 
 <div class="lycee">
-    <div class="container-fluid img-section no-padding">
-        <img src="img/lycee.jpg" alt="">
-        <div class="mask">
+    <div class="visuel-lycée">
+        <div class="container-fluid">
+            <div class="mask"></div>
+            <h1 class="text-center garamond">Lycée</h1>
         </div>
     </div>
 
