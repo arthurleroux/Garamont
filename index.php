@@ -99,7 +99,7 @@
                             <div class="team-item col-xs-12">
                                 <div class="tream-entry">
                                     <a href="" class="team-img">
-                                        <img src="img/projet.jpg" alt="" class="img-responsive">
+                                        <img src="img/formation-carré.jpg" alt="" class="img-responsive">
                                     </a>
                                     <div class="team-hover table-view">
                                         <div class="cell-view">
@@ -121,7 +121,7 @@
                             <div class="team-item col-xs-12">
                                 <div class="tream-entry">
                                     <a href="" class="team-img">
-                                        <img src="img/projet.jpg" alt="" class="img-responsive">
+                                        <img src="img/protrait-1.jpg" alt="" class="img-responsive">
                                     </a>
                                     <div class="team-hover table-view">
                                         <div class="cell-view">
@@ -159,7 +159,7 @@
                         <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/projet.jpg" alt="" class="img-responsive">
+                                    <img src="img/projet-portrait-1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
@@ -179,7 +179,7 @@
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/business.jpg" alt="" class="img-responsive">
+                                    <img src="img/protrait-1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
@@ -199,7 +199,7 @@
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                    <img src="img/formation-carré.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
@@ -366,7 +366,7 @@
                             <div class="team-item col-xs-12">
                                 <div class="tream-entry">
                                     <a href="" class="team-img">
-                                        <img src="img/back.jpg" alt="" class="img-responsive">
+                                        <img src="img/projet-portrait.jpg" alt="" class="img-responsive">
                                     </a>
                                     <div class="team-hover table-view">
                                         <div class="cell-view">
@@ -380,7 +380,7 @@
                             <div class="team-item col-xs-12">
                                 <div class="tream-entry">
                                     <a href="" class="team-img">
-                                        <img src="img/back.jpg" alt="" class="img-responsive">
+                                        <img src="img/projet-portrait-1.jpg" alt="" class="img-responsive">
                                     </a>
                                     <div class="team-hover table-view">
                                         <div class="cell-view">
@@ -409,7 +409,7 @@
                         <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                    <img src="img/projet-portrait.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
@@ -421,7 +421,7 @@
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                    <img src="img/projet-portrait-1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
@@ -433,7 +433,7 @@
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                    <img src="img/projet-portrait.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
@@ -445,7 +445,7 @@
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
                                 <a href="" class="team-img">
-                                    <img src="img/back.jpg" alt="" class="img-responsive">
+                                    <img src="img/protrait-1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
