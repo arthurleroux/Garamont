@@ -9,13 +9,13 @@
     </div>
     <div class="container contact-texte">
         <div class="row">
-            <div class="col-md-offset-3">
+            <div class="col-md-offset-3 col-md-6 col-xs-10 col-xs-offset-1">
                 <h2>Lorem Ipsum</h2>
-                <p class="text-left">Vide, quantum, inquam, fallare, Torquate. oratio me istius philosophi non offen</br>
-                    dit; nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; et</br>
-                    tamen ego a philosopho, si afferat eloquentiam, non asperner, si non habeat, non</br>
-                    admodum flagitem. re mihi non aeque satisfacit, et quidem locis pluribus. sed</br>
-                    quot homines, tot sententiae; falli igitur possumus.
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci asperiores distinctio dolor ducimus eaque eius error esse eum, ipsam nihil praesentium recusandae reprehenderit sed suscipit voluptas! Culpa, dignissimos.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci dolores esse eum perspiciatis possimus repudiandae sint ullam, voluptatibus! Deleniti dolorum ea, enim eveniet exercitationem iste labore modi molestiae similique!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequatur cum, cumque deleniti dignissimos dolor eos eum expedita hic id ipsam magni perferendis quia quis soluta tempore ullam velit veritatis?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, placeat, voluptatum. Amet expedita libero magni numquam optio quasi! Adipisci, atque eos harum necessitatibus omnis provident reprehenderit repudiandae saepe similique suscipit!
                 </p>
             </div>
         </div>
