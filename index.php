@@ -268,80 +268,78 @@
     <!---------------------Actualités---------------------->
 
 
-    <!--<div class="container-fluid no-padding actus">
-        <h1>Actualités</h1>
-        <div id="test">
-            <div id="carousel" data-carousel="true">
-                <ul class="carousel-control">
-                    <li class="previous"><img src="img/prev3.png" width="134" height="182" ></li>
-                    <li class="next"><img src="img/next.png" width="134" height="182"></li>
-                </ul>
-                <ul class="carousel-slides">
-                    <div class="test2">
-                        <li><img src="img/pics.png" width="395" height="300" /><h2 class="h2">ACTUALITE 1</h2>
-                            <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
-                        </li>
-                    </div>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 2</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 3</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 3</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 3</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 3</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 3</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="img/pics.png" width="395" height="300" />
-                        <h2 class="h2">ACTUALITE 3</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,</br>
-                            consectetur adipiscing elit.
-                        </p>
-                    </li>
-                </ul>
+    <div class="container-fluid no-padding actus">
+        <h1 class="text-center">Actualités</h1>
+        <div class="wrapper">
+            <div class="owl-carousel">
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE1</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h2">ACTUALITE2</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE3</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE4</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE 5</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE6</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE7</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE8</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="lien" href="#">
+                        <img src="img/pics.png" class="item"/>
+                        <h6 class="h6">ACTUALITE9</h6>
+                        <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit.</p>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <!---------------------Galerie---------------------->
 
@@ -353,13 +351,6 @@
             <div class="team">
 
                 <div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <!--<ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>-->
-
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
@@ -550,5 +541,4 @@
 </div>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="js/janice.js"></script>
 <?php require("footer.php"); ?>
