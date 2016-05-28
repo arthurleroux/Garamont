@@ -27,7 +27,7 @@
 
   var defaults = {
       topSpacing: 0,
-      bottomSpacing: 0,
+      bottomSpacing: 230,
       className: 'is-sticky',
       wrapperClassName: 'sticky-wrapper',
       center: false,
