@@ -14,27 +14,6 @@ $(document).ready(function(){
         });
     });
 
-    $(function() {
-        //Simple filter controls
-        $('.simplefilter li').click(function() {
-            $('.simplefilter li').removeClass('active');
-            $(this).addClass('active');
-        });
-        //Multifilter controls
-        $('.multifilter li').click(function() {
-            $(this).toggleClass('active');
-        });
-        //Shuffle control
-        $('.shuffle-btn').click(function() {
-            $('.sort-btn').removeClass('active');
-        });
-        //Sort controls
-        $('.sort-btn').click(function() {
-            $('.sort-btn').removeClass('active');
-            $(this).addClass('active');
-        });
-    });
-
     //FORMATIONS
 
     $("#losange-ind_graph").click(function(){
@@ -78,11 +57,9 @@ $(document).ready(function(){
         $("#li-design").trigger("click");
     });
 
-
+    setTimeout(function(){
+        $('.trans--grow').addClass('grow');
+    }, 275);
 });
-
-
-
-
 
 

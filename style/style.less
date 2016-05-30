@@ -18,6 +18,45 @@
   margin-right: 0;
 }
 
+.home-titre{
+  h1{
+    font-size: 8em;
+  }
+  hr{
+    border-top: 1px solid #555;
+  }
+}
+@media (max-width: 1199px) {
+  .home-titre{
+    h1{
+      font-size: 6em;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .home-titre{
+    h1{
+      font-size: 5em;
+    }
+  }
+}
+@media (max-width: 520px) {
+  .home-titre{
+    h1{
+      font-size: 4em;
+    }
+  }
+}
+.trans--grow{
+  -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: width 1s  ease-out;
+  width : 0%;
+}
+
+.grow{
+  width:20%;
+}
+
 /*********Header*********/
 
 .navbar-default {
@@ -1088,7 +1127,7 @@
       text-transform: uppercase;
       font-size: 10vw;
       position: absolute;
-      color: #666;
+      color: #2d2d2d;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -1306,7 +1345,7 @@
       text-transform: uppercase;
       font-size: 10vw;
       position: absolute;
-      color: #666666;
+      color: #2d2d2d;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -1420,7 +1459,7 @@
     text-transform: uppercase;
     font-size: 10vw;
     position: absolute;
-    color: white;
+    color: #2d2d2d;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1598,6 +1637,7 @@
     box-shadow: none;
     padding: 100px 0;
     text-align: center;
+    position: relative;
     .modal-window {
       padding: 0 20px 0 20px;
       h2 {
@@ -1631,6 +1671,9 @@
     right: 25px;
     top: 25px;
     width: 75px;
+    -webkit-transition: ease .3s;
+    -moz-transition: ease .3s;
+    transition: ease .3s;
     &:hover {
       opacity: .3;
     }
@@ -1643,6 +1686,7 @@
       transform: rotate(45deg);
       width: 1px;
       z-index: 1051;
+      border: 1px solid #666;
       .rl {
         -ms-transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
@@ -1651,6 +1695,7 @@
         transform: rotate(90deg);
         width: 1px;
         z-index: 1052;
+        border: 1px solid #666;
       }
     }
   }
@@ -1890,7 +1935,7 @@
       text-transform: uppercase;
       font-size: 10vw;
       position: absolute;
-      color: #666;
+      color: #2d2d2d;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
