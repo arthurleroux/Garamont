@@ -76,10 +76,10 @@
 
 
 
-    <div class="container-fluid block-formations no-padding"  id="formations">
-
-        <div class="text-center">
-            <h1>Formations</h1>
+    <div class="container-fluid block-formations no-padding wow fadeIn"  id="formations">
+        <div class="home-titre text-center">
+            <h1 class=" garamond">Formations</h1>
+            <hr class="trans--grow">
         </div>
 
         <div id="team" class="block visible-xs">
@@ -268,8 +268,11 @@
     <!---------------------Actualités---------------------->
 
 
-    <div class="container-fluid no-padding actus">
-        <h1 class="text-center">Actualités</h1>
+    <div class="container-fluid no-padding actus wow fadeIn">
+        <div class="home-titre">
+            <h1 class="text-center garamond">Actualités</h1>
+            <hr class="trans--grow">
+        </div>
         <div class="wrapper">
             <div class="owl-carousel">
                 <div class="item">
@@ -343,13 +346,13 @@
 
     <!---------------------Galerie---------------------->
 
-    <div class="container-fluid no-padding block-galerie">
-        <div class="text-center">
-            <h1>Galerie</h1>
+    <div class="container-fluid no-padding block-galerie wow fadeIn">
+        <div class="home-titre text-center">
+            <h1 class="garamond">Galerie</h1>
+            <hr class="trans--grow">
         </div>
         <div id="team" class="block visible-xs">
             <div class="team">
-
                 <div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
