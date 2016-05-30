@@ -9,7 +9,7 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs nav-top" role="tablist">
 
-                <li role="presentation" class="active col-md-2 col-md-offset-1 col-sm-12 col-xs-12 text-center">
+                <li role="presentation" class="active col-md-2 col-md-offset-1 col-sm-12 col-xs-12 text-center hidden-xs">
                     <a href="#toutes" aria-controls="toutes" role="tab" data-toggle="tab" id="li-toutes">
                         <span class="toutes">Toutes les formations</span>
                     </a>
@@ -23,7 +23,12 @@
                         Industries graphiques
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center">
+                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
+                    <i class="fa fa-caret-right" aria-hidden="true"></i> Façonnage industriel et routage
+                </a>
+                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href=""> <i class="fa fa-caret-right" aria-hidden="true"></i> Production imprimée</a>
+                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href=""> <i class="fa fa-caret-right" aria-hidden="true"></i> Production graphique</a>
+                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center margin-top-xs-10">
                     <a href="#com_grap" aria-controls="com_grap" role="tab" data-toggle="tab" id="li-com_graph">
                       <span class="vert">
                            b.t.s
@@ -32,7 +37,7 @@
                         Communication et industrie graphique
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center">
+                <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center margin-top-xs-10">
                     <a href="#artisanat" aria-controls="artisanat" role="tab" data-toggle="tab" id="li-artisanat">
                     <span class="vert">
                         bac pro
@@ -41,7 +46,7 @@
                         Artisanat des métiers d'art
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center">
+                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center margin-top-xs-10">
                     <a href="#design" aria-controls="design" role="tab" data-toggle="tab" id="li-design">
                     <span class="vert">
                         bac pro
@@ -54,14 +59,14 @@
         </div>
             <!-- Tab panes -->
             <div class="tab-content">
-                <div role="tabpanel" class="tab-pane fade  in active" id="toutes">
+                <div role="tabpanel" class="tab-pane fade in active hidden-xs" id="toutes">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-md-offset-1 margin-top-sm-xs-20">
                                 <a href="javascript:;" id="losange-ind_graph"><img class="losange" src="img/ind_grap.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" id="a-ind">
-                                        <div class="item item-1 text-right padding-right-20">
+                                        <div class="item item-1 text-center padding-right-20">
                                             <p>Façonnage industriel et routage</p>
                                         </div>
                                         <div class="triangle triangle-1">
@@ -70,7 +75,7 @@
                                 </div>
                                 <div class="row">
                                     <a href="javascript:;" id="a-prod-impr">
-                                        <div class="item item-2 text-right padding-right-20">
+                                        <div class="item item-2 text-center padding-right-20">
                                             <p>Production imprimée</p>
                                         </div>
                                         <div class="triangle triangle-2">
@@ -79,7 +84,7 @@
                                 </div>
                                 <div class="row">
                                     <a href="javascript:;" id="a-prod-graph">
-                                        <div class="item item-3 text-right padding-right-20">
+                                        <div class="item item-3 text-center padding-right-20">
                                             <p>Production graphique</p>
                                         </div>
                                         <div class="triangle triangle-3">
@@ -91,8 +96,8 @@
                                 <a href="javascript:;" id="losange-com_graph"><img class="losange" src="img/com_graph.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" id="a-e-impr">
-                                        <div class="item item-4 text-right padding-right-20">
-                                            <p><span>Études et réalisation de <br> produits imprimés</span></p>
+                                        <div class="item item-4 text-center padding-right-20">
+                                            <p><span>Études et réalisation de produits imprimés</span></p>
                                         </div>
                                         <div class="triangle triangle-4">
                                         </div>
@@ -100,8 +105,8 @@
                                 </div>
                                 <div class="row">
                                     <a href="javascript:;" id="a-e-graph">
-                                        <div class="item item-5 text-right padding-right-20">
-                                            <p><span>Études et réalisation de <br> produits graphiques</span></p>
+                                        <div class="item item-5 text-center padding-right-20">
+                                            <p><span>Études et réalisation de produits graphiques</span></p>
                                         </div>
                                         <div class="triangle triangle-5">
                                         </div>
@@ -114,7 +119,7 @@
                                 <a href="javascript:;" class="a-artisanat"><img class="losange" src="img/artisanat.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" class="a-artisanat">
-                                        <div class="item item-2 text-right padding-right-20">
+                                        <div class="item item-2 text-center padding-right-20">
                                             <p><span>Communication visuelle</span></p>
                                         </div>
                                         <div class="triangle triangle-2">
@@ -126,8 +131,8 @@
                                 <a href="javascript:;" class="a-design"><img class="losange" src="img/design.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" class="a-design">
-                                        <div class="item item-2 text-right padding-right-20">
-                                            <p><span>Communication et <br> médias imprimés</span></p>
+                                        <div class="item item-2 text-center padding-right-20">
+                                            <p><span>Communication et médias imprimés</span></p>
                                         </div>
                                         <div class="triangle triangle-2">
                                         </div>

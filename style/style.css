@@ -1578,6 +1578,26 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.formations .nav-top .formation-xs {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.2em;
+  color: #000000;
+}
+.formations .nav-top .formation-xs .fa-caret-right {
+  color: #1fa17e;
+}
+.formations .nav-top .formation-xs:hover {
+  color: #1fa17e;
+  text-decoration: none;
+}
+.formations .nav-top .formation-xs:hover .fa-caret-right {
+  color: #000000;
+}
 .formations .nav-top li {
   text-transform: uppercase;
   font-size: 1.1em;
@@ -1647,6 +1667,8 @@
   height: 60px;
 }
 .formations .tab-content .item p {
+  float: right;
+  width: 50%;
   line-height: 60px;
   font-size: 1.1em;
 }
@@ -1976,6 +1998,9 @@
   .margin-top-sm-xs-20 {
     margin-top: 20px;
   }
+  .formations .item {
+    font-size: 1.4em;
+  }
 }
 @media (max-width: 783px) {
   .lycee {
@@ -1983,6 +2008,12 @@
   }
 }
 @media (max-width: 767px) {
+  .nav-top li {
+    text-align: left;
+  }
+  .margin-top-xs-10 {
+    margin-top: 10px;
+  }
   .home {
     margin-top: 50px;
   }
