@@ -76,8 +76,7 @@
 
 
 
-    <div class="container-fluid block-formations no-padding"  id="formations">
-
+    <div class="container-fluid block-formations no-padding wow fadeIn"  id="formations">
         <div class="home-titre text-center">
             <h1 class=" garamond">Formations</h1>
             <hr class="trans--grow">
@@ -269,7 +268,7 @@
     <!---------------------Actualités---------------------->
 
 
-    <div class="container-fluid no-padding actus">
+    <div class="container-fluid no-padding actus wow fadeIn">
         <div class="home-titre">
             <h1 class="text-center garamond">Actualités</h1>
             <hr class="trans--grow">
@@ -347,7 +346,7 @@
 
     <!---------------------Galerie---------------------->
 
-    <div class="container-fluid no-padding block-galerie">
+    <div class="container-fluid no-padding block-galerie wow fadeIn">
         <div class="home-titre text-center">
             <h1 class="garamond">Galerie</h1>
             <hr class="trans--grow">
