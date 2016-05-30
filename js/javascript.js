@@ -21,31 +21,31 @@ $(document).ready(function(){
         $("#li-ind_graph").trigger("click");
     });
 
-    $("#a-ind").click(function(){
+    $(".a-ind").click(function(){
         $("#li-ind_graph").trigger("click");
         $("#a-ind-2").trigger("click");
     });
 
-    $("#a-prod-impr").click(function(){
+    $(".a-prod-impr").click(function(){
         $("#li-ind_graph").trigger("click");
         $("#a-prod-impr-2").trigger("click");
     });
 
-    $("#a-prod-graph").click(function(){
+    $(".a-prod-graph").click(function(){
         $("#li-ind_graph").trigger("click");
         $("#a-prod-graph-2").trigger("click");
     });
 
-    $("#losange-com_graph").click(function(){
+    $(".losange-com_graph").click(function(){
         $("#li-com_graph").trigger("click");
     });
 
-    $("#a-e-impr").click(function(){
+    $(".a-e-impr").click(function(){
         $("#li-com_graph").trigger("click");
         $("#a-e-impr-2").trigger("click");
     });
 
-    $("#a-e-graph").click(function(){
+    $(".a-e-graph").click(function(){
         $("#li-com_graph").trigger("click");
         $("#a-e-graph-2").trigger("click");
     });

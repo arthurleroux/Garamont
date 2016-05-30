@@ -1585,10 +1585,15 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #000000;
 }
 .formations .nav-top .formation-xs .fa-caret-right {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   color: #1fa17e;
 }
 .formations .nav-top .formation-xs:hover {
@@ -1762,11 +1767,6 @@
 }
 .formations .tab-content .nav-side li.title .vert {
   color: #1fa17e;
-}
-@media (max-width: 768px) {
-  .formations .img-section {
-    margin-top: 50px;
-  }
 }
 /*********contact*********/
 .contact {
@@ -2008,8 +2008,17 @@
   }
 }
 @media (max-width: 767px) {
-  .nav-top li {
+  .formations .img-section {
+    margin-top: 50px;
+  }
+  .formations .nav-top li {
     text-align: left;
+  }
+  .formations .nav-top li a {
+    border-top: 1px solid #000000 !important;
+  }
+  .formations .nav-top li:first-child a {
+    border-top: none !important;
   }
   .margin-top-xs-10 {
     margin-top: 10px;

@@ -1758,9 +1758,14 @@
       -ms-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s;
-      font-size: 1.2em;
+      font-size: 1.3em;
       color: #000000;
       .fa-caret-right {
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
         color: @vertMenu;
       }
       &:hover {
@@ -1937,16 +1942,6 @@
     }
   }
 }
-
-@media (max-width: 768px) {
-  .formations {
-    .img-section {
-      margin-top: 50px;
-    }
-  }
-}
-
-
 
 /*********contact*********/
 
@@ -2263,9 +2258,22 @@
 }
 
 @media (max-width: 767px) {
-  .nav-top {
-    li {
-      text-align: left;
+  .formations {
+    .img-section {
+      margin-top: 50px;
+    }
+    .nav-top {
+      li {
+        text-align: left;
+        a {
+          border-top: 1px solid #000000 !important;
+        }
+      }
+      li:first-child {
+        a {
+          border-top: none !important;
+        }
+      }
     }
   }
   .margin-top-xs-10 {
