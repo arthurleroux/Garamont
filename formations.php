@@ -9,12 +9,12 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs nav-top" role="tablist">
 
-                <li role="presentation" class="active col-md-2 col-md-offset-1 text-center">
+                <li role="presentation" class="active col-md-2 col-md-offset-1 col-sm-12 col-xs-12 text-center">
                     <a href="#toutes" aria-controls="toutes" role="tab" data-toggle="tab" id="li-toutes">
                         <span class="toutes">Toutes les formations</span>
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 text-center">
+                <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center">
                     <a href="#ind_graph" aria-controls="ind_graph" role="tab" data-toggle="tab" id="li-ind_graph">
                        <span class="vert">
                            bac pro
@@ -23,7 +23,7 @@
                         Industries graphiques
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 text-center">
+                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center">
                     <a href="#com_grap" aria-controls="com_grap" role="tab" data-toggle="tab" id="li-com_graph">
                       <span class="vert">
                            b.t.s
@@ -32,7 +32,7 @@
                         Communication et industrie graphique
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 text-center">
+                <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center">
                     <a href="#artisanat" aria-controls="artisanat" role="tab" data-toggle="tab" id="li-artisanat">
                     <span class="vert">
                         bac pro
@@ -41,7 +41,7 @@
                         Artisanat des métiers d'art
                     </a>
                 </li>
-                <li role="presentation" class="col-md-2 text-center">
+                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center">
                     <a href="#design" aria-controls="design" role="tab" data-toggle="tab" id="li-design">
                     <span class="vert">
                         bac pro
@@ -57,7 +57,7 @@
                 <div role="tabpanel" class="tab-pane fade  in active" id="toutes">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-5 col-md-offset-1">
+                            <div class="col-md-5 col-md-offset-1 margin-top-sm-xs-20">
                                 <a href="javascript:;" id="losange-ind_graph"><img class="losange" src="img/ind_grap.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" id="a-ind">
@@ -87,7 +87,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-5 margin-top-sm-xs-20">
                                 <a href="javascript:;" id="losange-com_graph"><img class="losange" src="img/com_graph.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" id="a-e-impr">
@@ -122,7 +122,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-5 margin-top-sm-xs-20">
                                 <a href="javascript:;" class="a-design"><img class="losange" src="img/design.png" alt=""></a>
                                 <div class="row">
                                     <a href="javascript:;" class="a-design">

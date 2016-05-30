@@ -1937,6 +1937,9 @@
   .lycee .points-verts {
     display: none;
   }
+  .margin-top-sm-xs-20 {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 783px) {
   .lycee {
