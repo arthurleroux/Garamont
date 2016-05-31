@@ -4,87 +4,141 @@
         <div class="container-fluid img-section no-padding">
             <img src="img/img_formations.jpg" alt="">
         </div>
-        <div class="container-fluid no-padding">
 
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs nav-top" role="tablist">
 
-                <li role="presentation" class="active col-md-2 col-md-offset-1 col-sm-12 col-xs-12 text-center">
-                    <a href="#toutes" aria-controls="toutes" role="tab" data-toggle="tab" id="li-toutes">
-                        <span class="toutes">Toutes les formations</span>
-                    </a>
-                </li>
-
-                <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center">
-                    <a href="#ind_graph" aria-controls="ind_graph" role="tab" data-toggle="tab" id="li-ind_graph">
-                       <span class="vert">
-                           bac pro
-                       </span>
-                        <br>
-                        Industries graphiques
-                    </a>
-                </li>
-
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs a-ind" href="javascript:;">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i> Façonnage industriel et routage
-                </a>
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    Production imprimée
-                </a>
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    Production graphique
-                </a>
-
-                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center margin-top-xs-10">
-                    <a href="#com_grap" aria-controls="com_grap" role="tab" data-toggle="tab" id="li-com_graph">
-                      <span class="vert">
-                           b.t.s
-                      </span>
-                        <br>
-                        Communication et industrie graphique
-                    </a>
-                </li>
-
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i> Études et réalisation de produits imprimés
-                </a>
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i> Études et réalisation de produits graphiques
-                </a>
-
-                <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center margin-top-xs-10">
-                    <a href="#artisanat" aria-controls="artisanat" role="tab" data-toggle="tab" id="li-artisanat">
+        <div class="panel-group visible-xs container formations-xs" id="accordion" role="tablist" aria-multiselectable="true">
+            <a class="collapsed" href="#collapse1" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse1">
+                <h4>
                     <span class="vert">
                         bac pro
                     </span>
-                        <br>
-                        Artisanat des métiers d'art
-                    </a>
-                </li>
+                    <br>
+                    Industrie graphique
+                </h4>
+            </a>
+            <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
 
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i> Communication visuelle
-                </a>
+            <a class="collapsed" href="#collapse2" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse2">
+                <h4>
+                    <span class="vert">
+                        b.t.s
+                    </span>
+                    <br>
+                    Communication et industrie graphique
+                </h4>
+            </a>
+            <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
 
-                <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center margin-top-xs-10">
-                    <a href="#design" aria-controls="design" role="tab" data-toggle="tab" id="li-design">
+            <a class="collapsed" href="#collapse3" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse3">
+                <h4>
                     <span class="vert">
                         bac pro
                     </span>
-                        <br>
-                        Design graphique
-                    </a>
-                </li>
+                    <br>
+                    Artisanat des métiers d'art
+                </h4>
+            </a>
+            <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
 
-                <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
-                    <i class="fa fa-caret-right" aria-hidden="true"></i> Communication et médias imprimés
-                </a>
-            </ul>
+            <a class="collapsed" href="#collapse4" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse4">
+                <h4>
+                  <span class="vert">
+                   bac pro
+              </span>
+                    <br>
+                    Design graphique
+                </h4>
+            </a>
+            <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
         </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-top hidden-xs" role="tablist">
+
+            <li role="presentation" class="active col-md-2 col-md-offset-1 col-sm-12 col-xs-12 text-center">
+                <a href="#toutes" aria-controls="toutes" role="tab" data-toggle="tab" id="li-toutes">
+                    <span class="toutes">Toutes les formations</span>
+                </a>
+            </li>
+
+            <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center">
+                <a href="#ind_graph" aria-controls="ind_graph" role="tab" data-toggle="tab" id="li-ind_graph">
+                   <span class="vert">
+                       bac pro
+                   </span>
+                    <br>
+                    Industries graphiques
+                </a>
+            </li>
+
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs a-ind" href="javascript:;">
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Façonnage industriel et routage
+            </a>
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="">
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                Production imprimée
+            </a>
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="">
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                Production graphique
+            </a>
+
+            <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center margin-top-xs-10">
+                <a href="#com_grap" aria-controls="com_grap" role="tab" data-toggle="tab" id="li-com_graph">
+                  <span class="vert">
+                       b.t.s
+                  </span>
+                    <br>
+                    Communication et industrie graphique
+                </a>
+            </li>
+
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Études et réalisation de produits imprimés
+            </a>
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Études et réalisation de produits graphiques
+            </a>
+
+            <li role="presentation" class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-12 text-center margin-top-xs-10">
+                <a href="#artisanat" aria-controls="artisanat" role="tab" data-toggle="tab" id="li-artisanat">
+                <span class="vert">
+                    bac pro
+                </span>
+                    <br>
+                    Artisanat des métiers d'art
+                </a>
+            </li>
+
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Communication visuelle
+            </a>
+
+            <li role="presentation" class="col-md-2 col-sm-5 col-xs-12 text-center margin-top-xs-10">
+                <a href="#design" aria-controls="design" role="tab" data-toggle="tab" id="li-design">
+                <span class="vert">
+                    bac pro
+                </span>
+                    <br>
+                    Design graphique
+                </a>
+            </li>
+
+            <a class="col-xs-offset-2 col-xs-10 visible-xs formation-xs" href="javascript:;" id="a-ind">
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Communication et médias imprimés
+            </a>
+        </ul>
+
         <!-- Tab panes -->
-        <div class="tab-content">
+        <div class="tab-content hidden-xs">
             <div role="tabpanel" class="tab-pane fade in active hidden-xs" id="toutes">
                 <div class="container">
                     <div class="row">

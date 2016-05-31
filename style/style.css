@@ -1573,35 +1573,21 @@
 .formations .img-section img {
   width: 100%;
 }
+.formations .formations-xs a {
+  text-decoration: none;
+  color: #000000;
+}
+.formations .formations-xs h4 {
+  text-transform: uppercase;
+}
+.formations .formations-xs h4 .vert {
+  font-size: 1.1em;
+  color: #1fa17e;
+}
 .formations .nav-top {
   box-shadow: 0 0 5px 0 #656565;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-.formations .nav-top .formation-xs {
-  text-decoration: none;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  font-size: 1.3em;
-  color: #000000;
-}
-.formations .nav-top .formation-xs .fa-caret-right {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  color: #1fa17e;
-}
-.formations .nav-top .formation-xs:hover {
-  color: #1fa17e;
-  text-decoration: none;
-}
-.formations .nav-top .formation-xs:hover .fa-caret-right {
-  color: #000000;
 }
 .formations .nav-top li {
   text-transform: uppercase;
