@@ -6,7 +6,7 @@
         </div>
 
 
-        <div class="panel-group visible-xs container formations-xs" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="visible-xs container formations-xs" id="accordion" role="tablist" aria-multiselectable="true">
             <a class="collapsed" href="#collapse1" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse1">
                 <h4>
                     <span class="vert">
@@ -16,8 +16,47 @@
                     Industrie graphique
                 </h4>
             </a>
-            <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                </p>
+                <div class="panel-group formation-xs" id="accordion" role="tablist" aria-multiselectable="true">
+                    <a class="collapsed" href="#collapse1_1" role="button" data-toggle="collapse" data-parent="#collapse1"  aria-expanded="false" aria-controls="collapse1_1">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Façonnage industriel et routage
+                        </h5>
+                    </a>
+                    <div id="collapse1_1" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+
+                    <a class="collapsed" href="#collapse1_2" role="button" data-toggle="collapse" data-parent="#collapse1"  aria-expanded="false" aria-controls="collapse1_2">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Production imprimée
+                        </h5>
+                    </a>
+                    <div id="collapse1_2" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+
+                    <a class="collapsed" href="#collapse1_3" role="button" data-toggle="collapse" data-parent="#collapse1"  aria-expanded="false" aria-controls="collapse1_3">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Production graphique
+                        </h5>
+                    </a>
+                    <div id="collapse1_3" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <a class="collapsed" href="#collapse2" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse2">
@@ -29,8 +68,36 @@
                     Communication et industrie graphique
                 </h4>
             </a>
-            <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad animi at aut beatae debitis distinctio facilis fuga illo laboriosam nulla quibusdam quidem sed, sint veritatis voluptate voluptates voluptatum.
+                </p>
+                <div class="panel-group formation-xs" id="accordion" role="tablist" aria-multiselectable="true">
+                    <a class="collapsed" href="#collapse2_1" role="button" data-toggle="collapse" data-parent="#collapse2"  aria-expanded="false" aria-controls="collapse2_1">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Production imprimée
+                        </h5>
+                    </a>
+                    <div id="collapse2_1" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+
+                    <a class="collapsed" href="#collapse2_2" role="button" data-toggle="collapse" data-parent="#collapse1"  aria-expanded="false" aria-controls="collapse2_2">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Production graphique
+                        </h5>
+                    </a>
+                    <div id="collapse2_2" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+
+                </div>
             </div>
 
             <a class="collapsed" href="#collapse3" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse3">
@@ -42,8 +109,23 @@
                     Artisanat des métiers d'art
                 </h4>
             </a>
-            <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dolorem doloribus, dolorum eligendi fugit ipsam labore magnam molestias optio porro quam quas quibusdam quos reprehenderit sequi veniam, vitae voluptatibus!
+                </p>
+                <div class="panel-group formation-xs" id="accordion" role="tablist" aria-multiselectable="true">
+                    <a class="collapsed" href="#collapse3_1" role="button" data-toggle="collapse" data-parent="#collapse2"  aria-expanded="false" aria-controls="collapse3_1">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Communication visuelle
+                        </h5>
+                    </a>
+                    <div id="collapse3_1" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <a class="collapsed" href="#collapse4" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse4">
@@ -55,8 +137,23 @@
                     Design graphique
                 </h4>
             </a>
-            <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dolorem doloribus, dolorum eligendi fugit ipsam labore magnam molestias optio porro quam quas quibusdam quos reprehenderit sequi veniam, vitae voluptatibus!
+                </p>
+                <div class="panel-group formation-xs" id="accordion" role="tablist" aria-multiselectable="true">
+                    <a class="collapsed" href="#collapse4_1" role="button" data-toggle="collapse" data-parent="#collapse2"  aria-expanded="false" aria-controls="collapse4_1">
+                        <h5>
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            Communication et médias imprimés
+                        </h5>
+                    </a>
+                    <div id="collapse4_1" class="collapse" role="tabpanel" aria-labelledby="heading1.1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, id laudantium magni maxime minus natus nobis perferendis sequi tenetur ullam veniam. Adipisci corporis cum cumque excepturi, laudantium libero quos!
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 

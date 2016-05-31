@@ -1573,16 +1573,38 @@
 .formations .img-section img {
   width: 100%;
 }
+.formations .formations-xs {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 .formations .formations-xs a {
   text-decoration: none;
   color: #000000;
 }
 .formations .formations-xs h4 {
+  font-weight: bold;
   text-transform: uppercase;
 }
 .formations .formations-xs h4 .vert {
   font-size: 1.1em;
   color: #1fa17e;
+}
+.formations .formations-xs a.collapsed h4 {
+  font-weight: normal;
+}
+.formations .formations-xs .formation-xs a h5 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-left: 30px;
+}
+.formations .formations-xs .formation-xs a h5 .fa-caret-right {
+  color: #1fa17e;
+}
+.formations .formations-xs .formation-xs a.collapsed h5 {
+  font-weight: normal;
+}
+.formations .formations-xs .formation-xs p {
+  margin-left: 60px;
 }
 .formations .nav-top {
   box-shadow: 0 0 5px 0 #656565;
@@ -1659,7 +1681,7 @@
 }
 .formations .tab-content .item p {
   float: right;
-  width: 50%;
+  width: 45%;
   line-height: 60px;
   font-size: 1.1em;
 }
