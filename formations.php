@@ -322,31 +322,31 @@
 
             <div role="tabpanel" class="tab-pane fade" id="ind_graph">
                 <div class="container-fluid">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-3 sidebar">
                         <ul class="nav-side" role="tablist">
                             <li role="presentation" class="active title">
                                 <a href="#ind_graph_gen" aria-controls="ind_graph_gen" role="tab" data-toggle="tab">
-                                    <div class="col-md-4 text-center vert">
+                                    <div class="col-md-4 col-sm-4 text-center vert">
                                         <h4>Bac pro</h4>
                                     </div>
-                                    <div class="col-md-8 text-center border-left">
+                                    <div class="col-md-8 col-sm-8 text-center border-left">
                                         <h4>Industrie graphique</h4>
                                     </div>
                                 </a>
                             </li>
-                            <li role="presentation" class="col-md-offset-4">
+                            <li role="presentation" class="col-md-offset-3">
                                 <a href="#ind" id="a-ind-2" aria-controls="ind" role="tab" data-toggle="tab">Façonnage industriel et routage</a>
                             </li>
-                            <li role="presentation" class="col-md-offset-4">
+                            <li role="presentation" class="col-md-offset-3">
                                 <a href="#prod-impr" id="a-prod-impr-2" aria-controls="prod-impr" role="tab" data-toggle="tab">Production imprimée</a>
                             </li>
-                            <li role="presentation" class="col-md-offset-4">
+                            <li role="presentation" class="col-md-offset-3">
                                 <a href="#prod-graph" id="a-prod-graph-2" aria-controls="prod-graph" role="tab" data-toggle="tab">Production graphique</a>
                             </li>
                         </ul>
 
                     </div>
-                    <div class="col-md-7 text-div">
+                    <div class="col-md-7 col-sm-7 text-div">
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="ind_graph_gen">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
@@ -370,14 +370,14 @@
 
             <div role="tabpanel" class="tab-pane fade" id="com_grap">
                 <div class="container-fluid">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-3 sidebar">
                         <ul class="nav-side" role="tablist">
                             <li role="presentation" class="active title">
                                 <a href="#com_graph_gen" aria-controls="com_graph_gen" role="tab" data-toggle="tab">
-                                    <div class="col-md-4 text-center vert">
+                                    <div class="col-md-4 col-sm-4 text-center vert">
                                         <h4>b.t.s</h4>
                                     </div>
-                                    <div class="col-md-8 text-center border-left">
+                                    <div class="col-md-8 col-sm-8 text-center border-left com-title">
                                         <h4>Communication et industrie graphique</h4>
                                     </div>
                                 </a>
@@ -390,7 +390,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-7 text-div">
+                    <div class="col-md-7 col-sm-7 text-div">
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="com_graph_gen">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
@@ -411,15 +411,15 @@
 
             <div role="tabpanel" class="tab-pane fade" id="artisanat">
                 <div class="container-fluid">
-                    <div class="col-md-3 title-div">
-                        <div class="col-md-4 text-center vert">
+                    <div class="col-md-3 title-div col-sm-3 sidebar">
+                        <div class="col-md-4 col-sm-4 text-center vert">
                             <h4>bac pro</h4>
                         </div>
-                        <div class="col-md-8 text-center border-left">
+                        <div class="col-md-8 col-sm-8 text-center border-left">
                             <h4>artisanat des métiers d'arts</h4>
                         </div>
                     </div>
-                    <div class="col-md-7 text-div">
+                    <div class="col-md-7 col-sm-7 text-div">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi aspernatur at autem consequatur dolore ea eius excepturi itaque libero quis quo reiciendis sunt tenetur ut, voluptates, voluptatum. Iusto.
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi at beatae commodi consectetur consequuntur deserunt error, exercitationem, in natus, nihil obcaecati officia optio provident sapiente similique suscipit tempora vero!
@@ -430,15 +430,15 @@
 
             <div role="tabpanel" class="tab-pane fade" id="design">
                 <div class="container-fluid">
-                    <div class="col-md-3 title-div">
-                        <div class="col-md-4 text-center vert">
+                    <div class="col-md-3 title-div col-sm-3 sidebar">
+                        <div class="col-md-4 col-sm-4 text-center vert">
                             <h4>bac pro</h4>
                         </div>
-                        <div class="col-md-8 text-center border-left">
+                        <div class="col-md-8 col-sm-8 text-center border-left">
                             <h4>design graphique</h4>
                         </div>
                     </div>
-                    <div class="col-md-7 text-div">
+                    <div class="col-md-7 col-sm-7 text-div">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis dolorem reprehenderit. Aspernatur culpa dolorum explicabo, fugit hic nihil omnis sed tempora. Eaque earum enim fugiat, fugit saepe sed tenetur.
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi aspernatur at autem consequatur dolore ea eius excepturi itaque libero quis quo reiciendis sunt tenetur ut, voluptates, voluptatum. Iusto.
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi at beatae commodi consectetur consequuntur deserunt error, exercitationem, in natus, nihil obcaecati officia optio provident sapiente similique suscipit tempora vero!
