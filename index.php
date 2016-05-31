@@ -98,7 +98,7 @@
                         <div class="item active">
                             <div class="team-item col-xs-12">
                                 <div class="tream-entry">
-                                    <a href="" class="team-img">
+                                    <a href="formations.php" class="team-img">
                                         <img src="img/formation-carré.jpg" alt="" class="img-responsive">
                                     </a>
                                     <div class="team-hover table-view">
@@ -110,7 +110,7 @@
                                             </div>
                                             <hr>
                                             <div class="team-social">
-                                                lorem
+                                                Façonnage industriel et routage
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@
                         <div class="item">
                             <div class="team-item col-xs-12">
                                 <div class="tream-entry">
-                                    <a href="" class="team-img">
+                                    <a href="formations.php" class="team-img">
                                         <img src="img/protrait-1.jpg" alt="" class="img-responsive">
                                     </a>
                                     <div class="team-hover table-view">
@@ -158,7 +158,7 @@
                     <div class="teamrow row">
                         <div class="team-item col-xs-12 col-sm-2 col-sm-offset-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/projet-portrait-1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
@@ -170,7 +170,7 @@
                                         </div>
                                         <hr>
                                         <div class="team-social">
-                                            lorem
+                                            Façonnage industriel et routage
                                         </div>
                                     </div>
                                 </div>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/protrait-1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
@@ -190,7 +190,7 @@
                                         </div>
                                         <hr>
                                         <div class="team-social">
-                                            lorem
+                                            Production imprimée
                                         </div>
                                     </div>
                                 </div>
@@ -198,24 +198,32 @@
                         </div>
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/formation-carré.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
                                         <div class="team-name">Formation</div>
+                                        <hr>
+                                        <div class="team-social">
+                                            Production graphique
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/back.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
                                         <div class="team-name">Formation</div>
+                                                            <hr>
+                                        <div class="team-social">
+                                            Études et réalisation de produits imprimés
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -224,36 +232,48 @@
                     <div class="teamrow row">
                         <div class="team-item col-xs-12  col-sm-offset-3 col-sm-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/back.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
                                         <div class="team-name">Formation</div>
+                                                            <hr>
+                                        <div class="team-social">
+                                            Études et réalisations de produits graphiques
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/back.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
                                         <div class="team-name">Formation</div>
+                                                            <hr>
+                                        <div class="team-social">
+                                            Communication visuelle
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="team-item col-xs-12 col-sm-2">
                             <div class="tream-entry">
-                                <a href="" class="team-img">
+                                <a href="formations.php" class="team-img">
                                     <img src="img/back.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="team-hover table-view">
                                     <div class="cell-view">
                                         <div class="team-name">Formation</div>
+                                                            <hr>
+                                        <div class="team-social">
+                                            Communication et média imprimés
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -543,5 +563,4 @@
     </div>
 </div>
 
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <?php require("footer.php"); ?>
