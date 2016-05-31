@@ -58,6 +58,7 @@ $(document).ready(function(){
         $("#li-design").trigger("click");
     });
 
+    //Animation des hr de la page home
     setTimeout(function(){
         $('.trans--grow').addClass('grow');
     }, 275);

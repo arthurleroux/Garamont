@@ -229,8 +229,8 @@
 .tream-entry {
   border: 3px solid @vert;
   position: relative;
-  width: 141px;
-  height: 141px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   overflow: hidden;
   -webkit-transform: rotate(-45deg);
@@ -249,8 +249,8 @@
 }
 .tream-entry .team-img, .tream-entry .table-view {
   display: block;
-  width: 199px;
-  height: 199px;
+  width: 281px;
+  height: 281px;
   -webkit-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -moz-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -ms-transform: translate(-14.5%, -14.5%) rotate(45deg);
@@ -312,6 +312,25 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*Desktops (>=1200px)*/
 /*Desktops (>=992px)*/
+@media (max-width: 1399px) {
+  .teamrow {
+    top: -20px;
+  }
+  .teamrow:nth-child(3) {
+    top: -40px;
+  }
+
+  .tream-entry {
+    width: 141px;
+    height: 141px;
+  }
+
+  .tream-entry .team-img, .tream-entry .table-view {
+    width: 199px;
+    height: 199px;
+  }
+}
+
 @media (max-width: 1199px) {
   .teamrow {
     top: -20px;
@@ -1223,14 +1242,8 @@
         text-transform: uppercase;
         color: @vertMenu;
       }
-      .marches-p1{
-
-      }
       .marches-p2{
         font-style: italic;
-      }
-      .marches-p3{
-
       }
       .marches-p4{
         text-transform: uppercase;
@@ -1238,9 +1251,6 @@
       }
       .marches-p5{
         font-weight: bold;
-      }
-      .marches-p6{
-
       }
       .marches-p7{
         color: @vertMenu;
