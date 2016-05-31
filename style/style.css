@@ -197,8 +197,8 @@
 .tream-entry {
   border: 3px solid #00ff8b;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 141px;
+  height: 141px;
   margin: 0 auto;
   overflow: hidden;
   -webkit-transform: rotate(-45deg);
@@ -216,8 +216,8 @@
 .tream-entry .team-img,
 .tream-entry .table-view {
   display: block;
-  width: 281px;
-  height: 281px;
+  width: 199px;
+  height: 199px;
   -webkit-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -moz-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -ms-transform: translate(-14.5%, -14.5%) rotate(45deg);
@@ -270,9 +270,7 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 23 - MEDIA QUERIES */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/*Desktops (>=1200px)*/
-/*Desktops (>=992px)*/
-@media (max-width: 1399px) {
+@media (min-width: 1530px) {
   .teamrow {
     top: -20px;
   }
@@ -280,13 +278,13 @@
     top: -40px;
   }
   .tream-entry {
-    width: 141px;
-    height: 141px;
+    width: 200px;
+    height: 200px;
   }
   .tream-entry .team-img,
   .tream-entry .table-view {
-    width: 199px;
-    height: 199px;
+    width: 281px;
+    height: 281px;
   }
 }
 @media (max-width: 1199px) {

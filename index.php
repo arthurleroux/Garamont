@@ -170,7 +170,7 @@
                                         </div>
                                         <hr>
                                         <div class="team-social">
-                                            Façonnage industriel et routage
+                                            Façonnage industriel <br> et routage
                                         </div>
                                     </div>
                                 </div>
@@ -222,7 +222,7 @@
                                         <div class="team-name">Formation</div>
                                                             <hr>
                                         <div class="team-social">
-                                            Études et réalisation de produits imprimés
+                                            Études et réalisation <br> de produits imprimés
                                         </div>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@
                                         <div class="team-name">Formation</div>
                                                             <hr>
                                         <div class="team-social">
-                                            Études et réalisations de produits graphiques
+                                            Études et réalisations <br> de produits graphiques
                                         </div>
                                     </div>
                                 </div>
@@ -272,7 +272,7 @@
                                         <div class="team-name">Formation</div>
                                                             <hr>
                                         <div class="team-social">
-                                            Communication et média imprimés
+                                            Communication <br> et média imprimés
                                         </div>
                                     </div>
                                 </div>
