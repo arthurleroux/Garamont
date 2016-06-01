@@ -15,7 +15,7 @@
                             <h2>Taxe d'apprentissage</h2>
                             <h3>Les rendez-vous formation & compétences</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut dignissimos ea libero, magnam nemo placeat repellendus ut voluptatibus. Animi corporis distinctio et ipsum vero. Magnam quae sed sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores earum eius et fugit molestiae, necessitatibus nulla obcaecati officia placeat quae quas quis, sint ut vel velit veniam vero.</p>
-                            <div class="col-md-offset-2 information-1">
+                            <div class="col-md-offset-1 information-1">
                                 <p>
                                     <i class="fa fa-clock-o" aria-hidden="true"></i><strong> Horaire : </strong>9h-12h30
                                 </p>
@@ -35,7 +35,7 @@
                             <h2>Bourses</h2>
                             <h3>Les rendez-vous formation & compétences</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut dignissimos ea libero, magnam nemo placeat repellendus ut voluptatibus. Animi corporis distinctio et ipsum vero. Magnam quae sed sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores earum eius et fugit molestiae, necessitatibus nulla obcaecati officia placeat quae quas quis, sint ut vel velit veniam vero.</p>
-                            <div class="information-2">
+                            <div class="col-md-offset-1 information-2">
                                 <p>
                                     <i class="fa fa-clock-o" aria-hidden="true"></i><strong> Horaire : </strong>9h-12h30
                                 </p>

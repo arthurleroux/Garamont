@@ -197,8 +197,8 @@
 .tream-entry {
   border: 3px solid #00ff8b;
   position: relative;
-  width: 141px;
-  height: 141px;
+  width: 190px;
+  height: 190px;
   margin: 0 auto;
   overflow: hidden;
   -webkit-transform: rotate(-45deg);
@@ -216,8 +216,8 @@
 .tream-entry .team-img,
 .tream-entry .table-view {
   display: block;
-  width: 199px;
-  height: 199px;
+  width: 265px;
+  height: 265px;
   -webkit-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -moz-transform: translate(-14.5%, -14.5%) rotate(45deg);
   -ms-transform: translate(-14.5%, -14.5%) rotate(45deg);
@@ -268,23 +268,28 @@
   top: -74px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 23 - MEDIA QUERIES */
+/*MEDIA QUERIES LOSANGE */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-@media (min-width: 1530px) {
-  .teamrow {
-    top: -20px;
-  }
-  .teamrow:nth-child(3) {
-    top: -40px;
-  }
+@media (max-width: 1635px) {
   .tream-entry {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
   .tream-entry .team-img,
   .tream-entry .table-view {
-    width: 281px;
-    height: 281px;
+    width: 224px;
+    height: 224px;
+  }
+}
+@media (max-width: 1399px) {
+  .tream-entry {
+    width: 141px;
+    height: 141px;
+  }
+  .tream-entry .team-img,
+  .tream-entry .table-view {
+    width: 199px;
+    height: 199px;
   }
 }
 @media (max-width: 1199px) {
@@ -359,12 +364,7 @@
     height: 338px;
   }
 }
-@media (max-width: 370px) {
-  .tream-entry {
-    width: 200px;
-    height: 200px;
-  }
-}
+/* CSS JANICE DES TENEBRES */
 /*********Home Actualité*********/
 .actus {
   overflow: hidden;
