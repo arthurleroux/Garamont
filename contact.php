@@ -1,11 +1,10 @@
 <?php require("header.php"); ?>
 
 <div class="parallax-window contact" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
-    <div class="visuel-contact">
-        <div class="container-fluid">
-            <div class="mask"></div>
-            <h1 class="text-center garamond">Contact</h1>
-        </div>
+    <div class="container-fluid visuel-contact no-padding">
+        <img src="img/contact3.png" alt="">
+        <div class="mask"></div>
+        <h1 class="text-center garamond">Contact</h1>
     </div>
     <div class="container contact-texte">
         <div class="row">

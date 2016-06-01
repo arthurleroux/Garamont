@@ -1008,16 +1008,15 @@
   bottom: 480px;
 }
 /*********Entreprise*********/
-.visuel-entreprise .container-fluid {
+.visuel-entreprise {
   position: relative;
-  background: url('../img/business.jpg') center center no-repeat scroll;
-  height: 70vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  overflow: hidden;
+  max-height: 70vh;
 }
-.visuel-entreprise .container-fluid h1 {
+.visuel-entreprise img {
+  width: 100%;
+}
+.visuel-entreprise h1 {
   text-transform: uppercase;
   font-size: 10vw;
   position: absolute;
@@ -1027,7 +1026,7 @@
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-.visuel-entreprise .container-fluid .mask {
+.visuel-entreprise .mask {
   position: absolute;
   background: rgba(255, 255, 255, 0.6);
   top: 0;
@@ -1207,6 +1206,14 @@
   }
 }
 /*********Lycée*********/
+.lycee .visuel-lycée {
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh;
+}
+.lycee .visuel-lycée img {
+  width: 100%;
+}
 .lycee .visuel-lycée h1 {
   text-transform: uppercase;
   font-size: 10vw;
@@ -1217,16 +1224,7 @@
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-.lycee .visuel-lycée .container-fluid {
-  position: relative;
-  background: url('../img/projet_entete.JPG') center center no-repeat scroll;
-  height: 70vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.lycee .visuel-lycée .container-fluid .mask {
+.lycee .visuel-lycée .mask {
   position: absolute;
   background: rgba(255, 255, 255, 0.6);
   top: 0;
@@ -1312,6 +1310,14 @@
   background-color: #f5f6f7;
 }
 /*********Projets*********/
+.visuel-projets {
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh;
+}
+.visuel-projets img {
+  width: 100%;
+}
 .visuel-projets h1 {
   text-transform: uppercase;
   font-size: 10vw;
@@ -1322,16 +1328,7 @@
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-.visuel-projets .container-fluid {
-  position: relative;
-  background: url('../img/projet_entete.JPG') center center no-repeat scroll;
-  height: 70vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.visuel-projets .container-fluid .mask {
+.visuel-projets .mask {
   position: absolute;
   background: rgba(255, 255, 255, 0.6);
   top: 0;
@@ -1579,14 +1576,33 @@
   }
 }
 /*********Formation*********/
-.formations .img-section {
+.formations .visuel-formations {
   margin-top: 75px;
   position: relative;
   max-height: 70vh;
   overflow: hidden;
 }
-.formations .img-section img {
+.formations .visuel-formations img {
   width: 100%;
+}
+.formations .visuel-formations h1 {
+  text-transform: uppercase;
+  font-size: 10vw;
+  position: absolute;
+  color: #2d2d2d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.formations .visuel-formations .mask {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 .formations .formations-xs {
   padding-bottom: 10px;
@@ -1795,6 +1811,14 @@
 .contact {
   overflow-x: hidden;
 }
+.contact .visuel-contact {
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh;
+}
+.contact .visuel-contact img {
+  width: 100%;
+}
 .contact .visuel-contact h1 {
   text-transform: uppercase;
   font-size: 10vw;
@@ -1803,18 +1827,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 100;
 }
-.contact .visuel-contact .container-fluid {
-  position: relative;
-  background: url('../img/contact3.png') center center no-repeat scroll;
-  height: 70vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.contact .visuel-contact .container-fluid .mask {
+.contact .visuel-contact .mask {
   position: absolute;
   background: rgba(255, 255, 255, 0.6);
   top: 0;

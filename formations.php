@@ -1,8 +1,10 @@
 <?php require("header.php"); ?>
 
     <div class="formations garamond">
-        <div class="container-fluid img-section no-padding">
+        <div class="container-fluid visuel-formations no-padding">
             <img src="img/img_formations.jpg" alt="">
+            <div class="mask"></div>
+            <h1 class="text-center garamond">Formations</h1>
         </div>
 
 

@@ -1,11 +1,10 @@
 <?php  require ('header.php'); ?>
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/garamont_background.jpg">
-        <div class="visuel-entreprise">
-            <div class="container-fluid">
-                <div class="mask"></div>
-                <h1 class="text-center garamond">Entreprise</h1>
-            </div>
+        <div class="container-fluid visuel-entreprise no-padding">
+            <img src="img/business.jpg" alt="">
+            <div class="mask"></div>
+            <h1 class="text-center garamond">Entreprise</h1>
         </div>
         <div class="container-fluid entreprise">
             <div class="container-fluid">

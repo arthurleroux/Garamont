@@ -1,11 +1,10 @@
 <?php require("header.php"); ?>
 
 <div class="lycee">
-    <div class="visuel-lycée">
-        <div class="container-fluid">
-            <div class="mask"></div>
-            <h1 class="text-center garamond">Lycée</h1>
-        </div>
+    <div class="container-fluid visuel-lycée no-padding">
+        <img src="img/projet_entete.JPG" alt="">
+        <div class="mask"></div>
+        <h1 class="text-center garamond">Lycée</h1>
     </div>
 
     <div class="container-fluid temoignage-section">

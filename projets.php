@@ -1,12 +1,10 @@
 <?php require("header.php"); ?>
 
-    <div class="visuel-projets">
-        <div class="container-fluid">
-            <div class="mask"></div>
-                <h1 class="text-center garamond">Projet</h1>
-        </div>
+    <div class="container-fluid visuel-projets no-padding">
+        <img src="img/projet_entete.JPG" alt="">
+        <div class="mask"></div>
+        <h1 class="text-center garamond">Projet</h1>
     </div>
-
     <div class="container-fluid projets-tabs">
         <nav class="nav navbar">
             <ul class="simplefilter">
