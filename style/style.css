@@ -1062,11 +1062,34 @@
   text-transform: uppercase;
   color: #1fa17e;
 }
-.entreprise .contenu-entreprise-1 .taxe .information-1 a {
+.entreprise .contenu-entreprise-1 .taxe .information-1 i {
   color: #11a27d;
 }
-.entreprise .contenu-entreprise-1 .taxe a {
+.entreprise .contenu-entreprise-1 .taxe .information-1 a {
+  text-decoration: none;
   color: #11a27d;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.entreprise .contenu-entreprise-1 .taxe .information-1 a:hover {
+  color: #00ff8b;
+}
+.entreprise .contenu-entreprise-1 .taxe .renseigner-choisir {
+  font-size: 1.3em;
+}
+.entreprise .contenu-entreprise-1 .taxe .renseigner-choisir i {
+  color: #00ff8b;
+}
+.entreprise .contenu-entreprise-1 .taxe .renseigner-choisir a {
+  text-decoration: none;
+  color: #11a27d;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.entreprise .contenu-entreprise-1 .taxe .renseigner-choisir a:hover {
+  color: #00ff8b;
 }
 .entreprise .contenu-entreprise-1 .bourses {
   background-color: #F7F7F7;
@@ -1965,11 +1988,11 @@
     margin-top: 10px;
   }
   /*  .home {
-    #carousel-example-generic {
-      height: 100vh;
-      overflow: hidden;
-    }
-  }*/
+      #carousel-example-generic {
+        height: 100vh;
+        overflow: hidden;
+      }
+    }*/
 }
 @media (max-width: 1130px) {
   .com-title h4 {

@@ -1191,12 +1191,35 @@
         color: @vertMenu;
       }
       .information-1{
-        a{
+        i{
           color: #11a27d;
         }
+        a{
+          text-decoration: none;
+          color: #11a27d;
+          -webkit-transition: all .3s;
+          -moz-transition: all .3s;
+          transition: all .3s;
+          &:hover{
+            color: #00ff8b;
+          }
+        }
       }
-      a{
-        color: #11a27d;
+      .renseigner-choisir{
+        font-size: 1.3em;
+        i{
+          color: #00ff8b;
+        }
+        a{
+          text-decoration: none;
+          color: #11a27d;
+          -webkit-transition: all .3s;
+          -moz-transition: all .3s;
+          transition: all .3s;
+          &:hover{
+            color: #00ff8b;
+          }
+        }
       }
     }
     .bourses{
@@ -1524,8 +1547,8 @@
       -o-transition: border-color 160ms linear;
       transition: border-color 160ms linear;
     }&:hover{
-      cursor: pointer;
-    }
+       cursor: pointer;
+     }
     .btn-lines {
       position: relative;
       .line-top {
@@ -2124,7 +2147,7 @@
 /*##############\*
     Responsive
 \*##############*/
-  /********* @MEDIA *********/
+/********* @MEDIA *********/
 
 @media (min-width: 992px) {
   .lycee {
@@ -2154,12 +2177,12 @@
       }
     }
   }
-/*  .home {
-    #carousel-example-generic {
-      height: 100vh;
-      overflow: hidden;
-    }
-  }*/
+  /*  .home {
+      #carousel-example-generic {
+        height: 100vh;
+        overflow: hidden;
+      }
+    }*/
 }
 
 @media (max-width: 1130px) {

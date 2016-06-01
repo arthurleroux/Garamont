@@ -26,9 +26,10 @@
                                     <a href="#">www.dfc.ccip.fr</a>
                                 </p>
                             </div>
-                            <a href="">
-                                <i class="fa fa-caret-right" aria-hidden="true"></i> Se renseigner et choisir
-                            </a>
+                            <div class="renseigner-choisir">
+                                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                <a href="http://www.cci-paris-idf.fr/formation/apprentissage/taxe-apprentissage-calcul-affectation-formation">Se renseigner</a> et <a href="http://www.dfcta.cci-paris-idf.fr/288-gestion-des-taxes-formation-accompagnement-taxe.html">choisir</a>
+                            </div>
                         </div>
                         <div class="bourses">
                             <h2>Bourses</h2>

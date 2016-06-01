@@ -6,8 +6,6 @@
             <div class="mask"></div>
             <h1 class="text-center garamond">Formations</h1>
         </div>
-
-
         <div class="visible-xs container formations-xs" id="accordion" role="tablist" aria-multiselectable="true">
             <a class="collapsed" href="#collapse1" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapse1">
                 <h4>
