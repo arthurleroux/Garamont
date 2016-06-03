@@ -244,7 +244,7 @@
                             <div class="row">
                                 <a href="javascript:;" class="a-ind">
                                     <div class="item item-1 text-center padding-right-20">
-                                        <p>Façonnage industriel et routage</p>
+                                        <p><span>Façonnage industriel et routage</span></p>
                                     </div>
                                     <div class="triangle triangle-1">
                                     </div>
@@ -253,7 +253,7 @@
                             <div class="row">
                                 <a href="javascript:;" class="a-prod-impr">
                                     <div class="item item-2 text-center padding-right-20">
-                                        <p>Production imprimée</p>
+                                        <p><span>Production imprimée</span></p>
                                     </div>
                                     <div class="triangle triangle-2">
                                     </div>
@@ -262,7 +262,7 @@
                             <div class="row">
                                 <a href="javascript:;" class="a-prod-graph">
                                     <div class="item item-3 text-center padding-right-20">
-                                        <p>Production graphique</p>
+                                        <p><span>Production graphique</span></p>
                                     </div>
                                     <div class="triangle triangle-3">
                                     </div>
