@@ -1836,6 +1836,7 @@
   font-weight: bold;
 }
 .formations .tab-content .nav-side li.title {
+  margin-top: 20px;
   margin-bottom: 100px;
   border-bottom: none;
 }
