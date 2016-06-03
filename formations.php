@@ -238,7 +238,9 @@
         <div class="tab-content hidden-xs">
             <div role="tabpanel" class="tab-pane fade in active hidden-xs" id="toutes">
                 <div class="container">
-                    <div class="row">
+                    <img class="corner-top-left" src="img/formation_fond2.png" alt="">
+                    <img class="corner-top-right" src="img/formation_fond2.png" alt="">
+                    <div class="row margin-top-row-1">
                         <div class="col-md-5 col-md-offset-1 margin-top-sm-xs-20">
                             <a href="javascript:;" id="losange-ind_graph"><img class="losange" src="img/ind_grap.png" alt=""></a>
                             <div class="row">
@@ -321,7 +323,7 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="ind_graph">
-                <div class="container-fluid">
+                <div class="container-fluid no-padding">
                     <div class="col-md-3 col-sm-3 sidebar">
                         <ul class="nav-side" role="tablist">
                             <li role="presentation" class="active title">

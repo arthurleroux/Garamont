@@ -1766,7 +1766,27 @@
 
 /*********Formation*********/
 
+
 .formations {
+  .margin-top-row-1 {
+    margin-top: 50px;
+  }
+  .corner-top-left {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    width: 200px;
+  }
+  .corner-top-right {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
   .visuel-formations {
     margin-top: @hauteurMenu;
     position: relative;
@@ -1890,7 +1910,7 @@
         color: #000000;
       }
     }
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
     .losange {
       position: relative;
@@ -1924,7 +1944,7 @@
       }
     }
     .item-1, .triangle-1 {
-      top: 1px;
+      top: 2px;
     }
     .item-2, .triangle-2 {
       -webkit-transform: translate(0%, -50%);
@@ -1935,7 +1955,7 @@
       top: 50%;
     }
     .item-3, .triangle-3 {
-      bottom: 1px;
+      bottom: 2px;
     }
     .item-4, .triangle-4 {
       top: 30px;
@@ -1969,6 +1989,7 @@
     .nav-side {
       float: right;
       margin-right: 10px;
+      margin-left: 15px;
       padding-left: 0;
       li {
         font-size: 1.2em;
@@ -2003,6 +2024,17 @@
         }
         border-bottom: none;
       }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .formations {
+    .margin-top-row-1 {
+      margin-top: 100px;
+    }
+    .corner-top-left, .corner-top-right {
+      width: 170px;
     }
   }
 }
